@@ -2,6 +2,6 @@
 title: Широкоформатная
 
   печать
-link: /pages/wideFormat
+link: /wideformat/index.html
 image: /assets/img/icons/wideFormat.png
 ---
