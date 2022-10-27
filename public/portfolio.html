@@ -1,0 +1,23 @@
+---
+layout: ./layouts/wSidescroller.html
+title: "Портфолио"
+---
+
+{% include "slideshowAutoWcaptionOnRight.html" %}
+<div class="portfolio">
+  {% for portfolio_list in collections.portfolio_list %}
+  <div class="portfolio_list">
+    <h1 class="portfolio_services">
+      {{ portfolio_list.data.portfolioListLitle }}
+    </h1>
+    <div class="portfolio_separate">
+      <div class="portfolio_separateLine"></div>
+    </div>
+    <p class="portfolio_jobs">
+      {% for продукция in portfolio_list.data.список_продукции %}
+      <a href="{{ portfolio_list.data.links[loop.index0] }}">{{ продукция }}</a>
+      {% endfor %}
+    </p>
+  </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,34 @@
+---
+layout: ./layouts/base.html
+title: "Полиграфия"
+---
+
+<article class="forClient">
+  <h1 class="greyBackground">Полиграфия</h1>
+  <img src="/assets/img/pic/polygraphy.jpg" alt="наружная реклама" />
+  {% for polygraphy in collections.polygraphy %}
+  <div class="columnsWimageNlinks">
+    <div class="columnsWimageNlinks_title">
+      <a href="{{ polygraphy.data.titleLink }}">
+        <h1>{{ polygraphy.data.title }}</h1></a
+      >
+    </div>
+    <div class="columnsWimageNlinks_links">
+      <p class="portfolio_jobs">
+        {% for вид in polygraphy.data.list %}
+        <a href="{{ polygraphy.data.links[loop.index0] }}">{{ вид }}</a>
+        {% endfor %} {{ polygraphy.data.text }}
+      </p>
+    </div>
+    <div class="columnsWimageNlinks_linebox">
+      <div class="columnsWimageNlinks_linebox_line"></div>
+    </div>
+    <div class="columnsWimageNlinks_linebox2">
+      <div class="columnsWimageNlinks_linebox_line"></div>
+    </div>
+    <div class="columnsWimageNlinks_image">
+      <img src="{{ polygraphy.data.image }}" alt="{{ polygraphy.data.alt }}" />
+    </div>
+  </div>
+  {% endfor %}
+</article>
