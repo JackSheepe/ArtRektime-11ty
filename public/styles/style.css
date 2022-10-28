@@ -317,6 +317,20 @@ a {
   box-shadow: inset 0px 4px 2px rgb(145, 145, 145, 0.5);
 }
 
+.greyBackground__H1separatelineP {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8%;
+}
+
+.greyBackground__H1separatelineP p {
+  max-width: 700px;
+  margin: 0 20px;
+}
+
 .forClient p,
 .forClient h3,
 .forClient h4,
