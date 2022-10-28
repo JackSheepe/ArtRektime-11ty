@@ -1,3 +1,4 @@
 {
-  "tags": "polygraphy"
+  "tags": "polygraphy",
+  "layout": "./layouts/base.html"
 }

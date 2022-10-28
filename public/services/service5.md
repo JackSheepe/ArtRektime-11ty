@@ -2,7 +2,7 @@
 title: Фрезерная
 
   резка с ЧПУ
-link: /pages/outsideAd
+link: /stanok/index.html
 image: /assets/img/icons/stanok.png
 alt: иконка станка
 ---

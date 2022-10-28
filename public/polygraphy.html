@@ -9,14 +9,12 @@ title: "Полиграфия"
   {% for polygraphy in collections.polygraphy %}
   <div class="columnsWimageNlinks">
     <div class="columnsWimageNlinks_title">
-      <a href="{{ polygraphy.data.titleLink }}">
-        <h1>{{ polygraphy.data.title }}</h1></a
-      >
+      <a href="{{ polygraphy.url }}"> <h1>{{ polygraphy.data.title }}</h1></a>
     </div>
     <div class="columnsWimageNlinks_links">
       <p class="portfolio_jobs">
         {% for вид in polygraphy.data.list %}
-        <a href="{{ polygraphy.data.links[loop.index0] }}">{{ вид }}</a>
+        <a href="{{ polygraphy.url }}">{{ вид }}</a>
         {% endfor %} {{ polygraphy.data.text }}
       </p>
     </div>

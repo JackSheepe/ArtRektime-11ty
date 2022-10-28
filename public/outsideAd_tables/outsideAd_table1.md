@@ -16,7 +16,7 @@ list:
 </div>
 <div class="outsideAd_post">
 <!-- верхнее изображение -->
-  <img src="/assets/img/pic/tableofficeExample.jpg" alt="вывеска для банка" />
+  <img src="/assets/img/pic/tableofficeExample.jpg" alt="пример тиаблички для офиса" />
   <div class="outsideAd_post_text">
   <!-- заголовок -->
     <h1>Табличка из пластика ПВХ 5мм, 3 мм, аппликация или печать на виниловой пленке</h1>
