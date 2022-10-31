@@ -607,7 +607,6 @@ a {
 }
 
 .outsideAd_post img {
-  background-color: aqua;
   object-fit: contain;
   max-width: 100%;
   justify-self: right;
