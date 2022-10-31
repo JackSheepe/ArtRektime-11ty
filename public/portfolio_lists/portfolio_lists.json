@@ -1,3 +1,4 @@
 {
-  "tags": "portfolio_list"
+  "tags": "portfolio_list",
+  "layout": "./layouts/base.html"
 }

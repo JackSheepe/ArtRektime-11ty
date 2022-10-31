@@ -9,11 +9,4 @@ portfolioListLitle: Наружная реклама
   - пожарная безопасность
   - плоттерная резка
 links:
-  - https://viveski.html
-  - https://lightbox.html
-  - https://lettersAndElements.html
-  - https://tables.html
-  - https://stands.html
-  - https://fireDanger.html
-  - https://plotter.html
 ---

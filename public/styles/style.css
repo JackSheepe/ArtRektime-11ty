@@ -334,7 +334,8 @@ a {
 .forClient p,
 .forClient h3,
 .forClient h4,
-.forClient ul {
+.forClient ul,
+.forClient ol {
   padding: 10px 25%;
 }
 
@@ -364,7 +365,8 @@ a {
   font-weight: 400;
 }
 
-.forClient ul {
+.forClient ul,
+.forClient ol {
   margin: 0 0 0 20px;
 }
 
@@ -672,6 +674,46 @@ table.darkTable tfoot td {
   font-size: 12px;
 }
 
+.led {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 10px 25%;
+}
+
+.led_text p,
+.led_text ol,
+.led_text ul,
+.led_text h4 {
+  padding: 10px 20px 10px 0;
+}
+
+.fasade_gallery__flex {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 10px 25%;
+  justify-content: center;
+}
+
+.fasade_gallery_inner {
+  display: block;
+  gap: 10px;
+  text-align: center;
+}
+
+.fasade_gallery_inner img {
+  height: 190px;
+}
+
+.flex_important {
+  display: flex;
+  gap: 20px;
+}
+
+.flex_important img {
+  width: 20px;
+}
+
 @media (max-width: 768px) {
   .firstHeader {
     padding: 0;
@@ -761,7 +803,8 @@ table.darkTable tfoot td {
   .forClient p,
   .forClient h3,
   .forClient h4,
-  .forClient ul {
+  .forClient ul,
+  .forClient ol {
     padding: 10px 5%;
   }
   .columnsWimageNlinks {
@@ -786,6 +829,14 @@ table.darkTable tfoot td {
     width: 100%;
     justify-content: center;
     margin: 0;
+  }
+  .led {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+  }
+  .fasade_gallery__flex {
+    padding: 10px 10px;
   }
 }
 
