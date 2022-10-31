@@ -5,13 +5,18 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="/styles/style.css" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+<script defer src="/scripts/nav.js"></script>
 <title>НАВИГАЦИЯ</title>
   
   </head>
   <body>
     <header>
   <div class="headerLine2"></div>
-  <nav class="firstHeader">
+  <nav class="firstHeader" id="myTopnav">
     <a href="/index.html">На главную</a>
     <a href="/services/index.html">Услуги и цены</a>
     <a href="/portfolio/index.html">Портфолио</a>
@@ -19,6 +24,9 @@
     <a href="/paymentanddelivery/index.html">Оплата и доставка</a>
     <a href="/aboutus/index.html">О нас</a>
     <a href="/contacts/index.html">Контакты</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </nav>
   <div class="headerLine"></div>
   <div class="secondHeader">

@@ -39,6 +39,14 @@ header {
   color: rgb(226, 43, 165);
 }
 
+.firstHeader a:active {
+  color: rgb(226, 43, 165);
+}
+
+.firstHeader .icon {
+  display: none;
+}
+
 .headerLine {
   grid-row: 3;
   width: 100%;
@@ -717,6 +725,30 @@ table.darkTable tfoot td {
 @media (max-width: 768px) {
   .firstHeader {
     padding: 0;
+  }
+  .firstHeader a {
+    font-size: 20px;
+    margin: 4px;
+  }
+  .firstHeader a:not(:first-child) {
+    display: none;
+  }
+  .firstHeader a.icon {
+    float: right;
+    display: block;
+  }
+  .firstHeader.responsive {
+    position: relative;
+  }
+  .firstHeader.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .firstHeader.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
   }
   .secondHeader {
     margin: 0 5px 0 0;
