@@ -735,19 +735,17 @@ function showItems7() {
   }
 }
 
-window.onload = function () {
-  showItems();
-  check();
-  showItems2();
-  check2();
-  showItems3();
-  check3();
-  showItems4();
-  check4();
-  showItems5();
-  check5();
-  showItems6();
-  check6();
-  showItems7();
-  check7();
-};
+showItems();
+check();
+showItems2();
+check2();
+showItems3();
+check3();
+showItems4();
+check4();
+showItems5();
+check5();
+showItems6();
+check6();
+showItems7();
+check7();
