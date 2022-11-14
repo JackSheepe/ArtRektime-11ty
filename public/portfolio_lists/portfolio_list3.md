@@ -112,7 +112,7 @@ data-description="{{ frezer.data.description }}"
 <div class="pagination">
 <div class="pagination-prev4">Prev</div>
 <div class="pagination-page">
-<span class="pagination-page-num4">1</span>
+Page <span class="pagination-page-num4">1</span>
 </div>
 <div class="pagination-next4">Next</div>
 </div>
@@ -138,7 +138,7 @@ data-description="{{ stella.data.description }}"
 <div class="pagination">
 <div class="pagination-prev5">Prev</div>
 <div class="pagination-page">
-<span class="pagination-page-num5">1</span>
+Page <span class="pagination-page-num5">1</span>
 </div>
 <div class="pagination-next5">Next</div>
 </div>
