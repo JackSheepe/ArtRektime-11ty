@@ -1,4 +1,5 @@
 ---
+layout: ./layouts/wgallery1.html
 portfolioListLitle: Наружная реклама
 список_продукции:
   - вывески
