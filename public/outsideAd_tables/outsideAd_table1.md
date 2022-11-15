@@ -6,7 +6,7 @@ text: ПВХ табличка, табличка АКП, акрил зеркал�
 list:
 ---
 
-<article>
+<article class="container__flex__center">
 <div class="greyBackground greyBackground__H1separatelineP">
 	<h1>Офисная табличка</h1>
 	<div class="columnsWimageNlinks_linebox">
@@ -64,6 +64,8 @@ list:
 </tbody>
 </tr>
 </table>
+</div>
+<div style="width: 850px; margin: 20px 0">
 <p>Двустороннее нанесение изображения +30%. стоимости
 
 Изготовление кармана для сменной информации от 100 руб/шт.

@@ -1,4 +1,5 @@
 ---
+title: Дизайн
 layout: ./layouts/wgallery3.html
 portfolioListLitle: Дизайн
 список_продукции:

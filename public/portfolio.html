@@ -3,8 +3,9 @@ layout: ./layouts/wSidescroller.html
 title: Портфолио
 ---
 
-{% include "slideshowAutoWcaptionOnRight.html" %}
-
+<div class="portfolio_slideshow_container">
+  {% include "slideshowAutoWcaptionOnRight.html" %}
+</div>
 <div class="portfolio">
   {% for portfolio_list in collections.portfolio_list %}
   <div class="portfolio_list">

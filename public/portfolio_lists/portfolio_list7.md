@@ -1,4 +1,5 @@
 ---
+title: Отделка фасадов и входных групп
 layout: ./layouts/wgallery6.html
 portfolioListLitle: Отделка фасадов и входных групп
 список_продукции:

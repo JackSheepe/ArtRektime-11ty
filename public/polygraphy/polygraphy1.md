@@ -11,7 +11,7 @@ links:
 
 ---
 
-<article>
+<article  class="container__flex__center">
 <div class="greyBackground greyBackground__H1separatelineP">
 	<h1>Визитки</h1>
 	<div class="columnsWimageNlinks_linebox">
@@ -34,7 +34,7 @@ links:
     <h4>
       разработка дизайн-проекта от 400 руб.,
       <!-- ссылка -->
-      <a href="#"><span>примеры работ</span></a>
+      <a href="/portfolio_lists/portfolio_list2/"><span>примеры работ</span></a>
     </h4>
   </div>
 </div>
@@ -77,7 +77,7 @@ links:
     <h4>
       разработка дизайн-проекта от 400 руб.,
       <!-- ссылка -->
-      <a href="#"><span>примеры работ</span></a>
+      <a href="/portfolio_lists/portfolio_list2/"><span>примеры работ</span></a>
     </h4>
   </div>
 </div>
@@ -120,7 +120,7 @@ links:
     <h4>
       разработка дизайн-проекта от 400 руб.,
       <!-- ссылка -->
-      <a href="#"><span>примеры работ</span></a>
+      <a href="/portfolio_lists/portfolio_list2/"><span>примеры работ</span></a>
     </h4>
   </div>
 </div>

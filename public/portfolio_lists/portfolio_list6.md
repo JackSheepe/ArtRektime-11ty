@@ -1,4 +1,5 @@
 ---
+title: Бегущие строки и LED экраны
 layout: ./layouts/wgallery5.html
 portfolioListLitle: Бегущие строки и LED экраны
 список_продукции:

@@ -1,4 +1,5 @@
 ---
+title: Полиграфия
 layout: ./layouts/wgallery2.html
 portfolioListLitle: Полиграфия
 список_продукции:

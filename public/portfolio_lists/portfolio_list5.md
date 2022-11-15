@@ -1,4 +1,5 @@
 ---
+title: Фрезерная резка с ЧПУ
 layout: ./layouts/wgallery4.html
 portfolioListLitle: Фрезерная резка с ЧПУ
 список_продукции:

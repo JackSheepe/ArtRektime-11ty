@@ -1,4 +1,5 @@
 ---
+title: Размещение рекламы
 layout: ./layouts/base.html
 portfolioListLitle: Размещение рекламы
 список_продукции:

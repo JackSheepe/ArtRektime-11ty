@@ -6,7 +6,7 @@ text: ПВХ табличка, табличка АКП, акрил зеркал�
 list:
 ---
 
-<article>
+<article  class="container__flex__center">
 <div class="greyBackground greyBackground__H1separatelineP">
 	<h1>Режим работы</h1>
 	<div class="columnsWimageNlinks_linebox">
