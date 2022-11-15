@@ -1,0 +1,25 @@
+---
+pagination:
+  data: collections.viveskaItem
+  size: 8
+  alias: viveskaItem
+---
+
+<div class="portfolio_works_container">
+  <div class="portfolio_works__grid">
+    {% for viveskaItem in collections.viveskaItem %}
+    <div
+      class="portfolio_works_wrapper"
+      data-name="{{ viveskaItem.data.name }}"
+      data-description="{{ viveskaItem.data.description }}"
+    >
+      <div class="portfolio_works_imgcontainer">
+        <img
+          src="{{ viveskaItem.data.img }}"
+          alt="{{ viveskaItem.data.alt }}"
+        />
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
