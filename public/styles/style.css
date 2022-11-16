@@ -315,6 +315,7 @@ footer p {
   display: grid;
   grid-template-columns: 1fr;
   padding: 50px 15%;
+  gap: 20px;
 }
 
 .portfolio_list {
@@ -327,7 +328,7 @@ footer p {
 
 .portfolio_jobs {
   grid-column: 3;
-  width: 256px;
+  width: 356px;
 }
 
 .portfolio_services {
@@ -338,10 +339,13 @@ footer p {
   text-align: right;
 }
 
+.portfolio_services:hover {
+  color: blueviolet;
+}
+
 .portfolio_list a {
   text-decoration: none;
 }
-
 .portfolio_services::first-letter {
   color: inherit;
 }
