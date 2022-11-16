@@ -117,7 +117,7 @@ header {
 }
 
 .contacts_important {
-  color: red;
+  color: rgb(255, 0, 102);
   grid-column: 2;
 }
 
@@ -218,7 +218,7 @@ h1 {
 }
 
 h1::first-letter {
-  color: red;
+  color: rgb(255, 0, 102);
 }
 
 .services_container {
@@ -423,7 +423,7 @@ a {
 }
 
 .forClient h3::first-letter {
-  color: red;
+  color: rgb(255, 0, 102);
 }
 
 .forClient h4 {
@@ -599,7 +599,7 @@ a {
 
 .pageContacts_imgWcontacts a {
   text-decoration: none;
-  color: red;
+  color: rgb(255, 0, 102) d;
 }
 
 .pageContacts_imgWcontacts a:hover {
@@ -769,7 +769,7 @@ a {
 }
 
 .outsideAd_post_text a {
-  color: red;
+  color: rgb(255, 0, 102);
 }
 
 .tableContainer {
@@ -831,7 +831,7 @@ table.darkTable tfoot td {
 }
 
 .container__flex__center h2::first-letter {
-  color: red;
+  color: rgb(255, 0, 102);
 }
 
 .container__flex__center .led {
