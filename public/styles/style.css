@@ -1690,6 +1690,13 @@ table.darkTable tfoot td {
   grid-area: d;
 }
 
+.acrylcard1_img img,
+.acrylcard2_img img,
+.acrylcard3_img img {
+  width: 100%;
+  object-fit: cover;
+}
+
 .acrylbenefits1 {
   grid-area: e;
   background-image: url(/assets/img/pic/acrylbenefits1.png);
@@ -2062,6 +2069,46 @@ table.darkTable tfoot td {
   .newRubrika__grid__left_card_seen_icon {
     margin-top: 10px;
   }
+  .grid_image2c_text1c {
+    display: block;
+    margin: 30px 30px;
+  }
+  .acrylic_tech_benefits__grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "a a"
+      "y b"
+      "u c"
+      "i d"
+      "e e"
+      "f z"
+      "x v";
+    margin: 30px 30px;
+  }
+  .acrylbenefits1 div p,
+  .acrylbenefits2 div p,
+  .acrylbenefits3 div p,
+  .acrylbenefits4 div p,
+  .acrylbenefits5 div p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .acrylbenefits1 div img,
+  .acrylbenefits2 div img,
+  .acrylbenefits3 div img,
+  .acrylbenefits4 div img,
+  .acrylbenefits5 div img {
+    max-width: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .acrylbenefits1 div img {
+    max-width: 140px;
+  }
 }
 
 @media (min-width: 767px) and (max-width: 998px) {
@@ -2090,5 +2137,28 @@ table.darkTable tfoot td {
   }
   .stanok__flex1 {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .acrylic_tech_benefits__grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "a a"
+      "y y"
+      "b b"
+      "u u"
+      "c c"
+      "i i"
+      "d d"
+      "e e"
+      "f f"
+      "z z"
+      "x x"
+      "v v";
+    margin: 30px 30px;
   }
 }
