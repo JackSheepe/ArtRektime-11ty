@@ -1613,6 +1613,182 @@ table.darkTable tfoot td {
   margin: 0 25%;
 }
 
+.grid_image2c_text1c {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 928px;
+  grid-template-areas: "a a b";
+  margin: 40px 0;
+}
+
+.grid_image2c_text1c img {
+  grid-area: a;
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.grid_image2c_text1c_text p {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.grid_image2c_text1c_text ul {
+  font-size: 20px;
+  padding: 0;
+}
+
+.grid_image2c_text1c_text li {
+  list-style-image: url("/assets/img/icons/marker.svg");
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+
+.grid_image2c_text1c_text li::marker {
+  color: rgb(255, 0, 102);
+}
+
+.acrylic_tech_benefits__grid {
+  display: grid;
+  max-width: 928px;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 38px auto 226px 292px 292px;
+  grid-template-areas:
+    "a a a"
+    "y u i"
+    "b c d"
+    "e e f"
+    "z x v";
+  margin: 50px 0;
+}
+
+.acrylic_tech_benefits__grid_heading {
+  grid-area: a;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+}
+
+.acrylcard1_text {
+  grid-area: y;
+}
+.acrylcard2_text {
+  grid-area: u;
+}
+.acrylcard3_text {
+  grid-area: i;
+}
+
+.acrylcard1_img {
+  grid-area: b;
+}
+.acrylcard2_img {
+  grid-area: c;
+}
+.acrylcard3_img {
+  grid-area: d;
+}
+
+.acrylbenefits1 {
+  grid-area: e;
+  background-image: url(/assets/img/pic/acrylbenefits1.png);
+}
+.acrylbenefits2 {
+  grid-area: f;
+  background-image: url(/assets/img/pic/acrylbenefits2.png);
+}
+.acrylbenefits3 {
+  grid-area: z;
+  background-image: url(/assets/img/pic/acrylbenefits3.png);
+}
+.acrylbenefits4 {
+  grid-area: x;
+  background-image: url(/assets/img/pic/acrylbenefits4.png);
+}
+.acrylbenefits5 {
+  grid-area: v;
+  background-image: url(/assets/img/pic/acrylbenefits5.png);
+}
+
+.acrylbenefits1,
+.acrylbenefits2,
+.acrylbenefits3,
+.acrylbenefits4,
+.acrylbenefits5 {
+  text-decoration: none;
+  position: relative;
+}
+
+.acrylbenefits1 div,
+.acrylbenefits2 div,
+.acrylbenefits3 div,
+.acrylbenefits4 div,
+.acrylbenefits5 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.747);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 1;
+}
+
+.acrylbenefits1 div p,
+.acrylbenefits2 div p,
+.acrylbenefits3 div p,
+.acrylbenefits4 div p,
+.acrylbenefits5 div p {
+  color: white;
+  font-size: 28px;
+  text-align: center;
+}
+
+.acrylbenefits1 div img,
+.acrylbenefits2 div img,
+.acrylbenefits3 div img,
+.acrylbenefits4 div img,
+.acrylbenefits5 div img {
+  max-width: 140px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.acrylbenefits1 div img {
+  max-width: 200px;
+}
+
+.acrylbenefits1 div:hover,
+.acrylbenefits2 div:hover,
+.acrylbenefits3 div:hover,
+.acrylbenefits4 div:hover,
+.acrylbenefits5 div:hover {
+  opacity: 0;
+  transition: ease-in-out 300ms;
+}
+
+.acrylbenefits1::after,
+.acrylbenefits2::after,
+.acrylbenefits3::after,
+.acrylbenefits4::after,
+.acrylbenefits5::after {
+  position: absolute;
+  content: url(/assets/img/icons/youtubeicon.png);
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.acrylbenefits1:hover::after,
+.acrylbenefits2:hover::after,
+.acrylbenefits3:hover::after,
+.acrylbenefits4:hover::after,
+.acrylbenefits5:hover::after {
+  opacity: 1;
+  transition: ease-in-out 300ms;
+}
+
 @media (max-width: 768px) {
   .firstHeader {
     padding: 0;
