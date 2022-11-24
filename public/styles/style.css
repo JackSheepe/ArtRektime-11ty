@@ -1757,13 +1757,13 @@ table.darkTable tfoot td {
 .acrylbenefits3 div img,
 .acrylbenefits4 div img,
 .acrylbenefits5 div img {
-  max-width: 140px;
+  max-width: 100px;
   object-fit: contain;
   margin-bottom: 20px;
 }
 
 .acrylbenefits1 div img {
-  max-width: 200px;
+  max-width: 120px;
 }
 
 .acrylbenefits1 div:hover,
@@ -1794,6 +1794,10 @@ table.darkTable tfoot td {
 .acrylbenefits5:hover::after {
   opacity: 1;
   transition: ease-in-out 300ms;
+}
+
+.line-height_m {
+  line-height: 22px;
 }
 
 @media (max-width: 768px) {
@@ -2108,6 +2112,14 @@ table.darkTable tfoot td {
   }
   .acrylbenefits1 div img {
     max-width: 140px;
+  }
+  .acrylbenefits1::after,
+  .acrylbenefits2::after,
+  .acrylbenefits3::after,
+  .acrylbenefits4::after,
+  .acrylbenefits5::after {
+    opacity: 1;
+    transition: ease-in-out 300ms;
   }
 }
 
