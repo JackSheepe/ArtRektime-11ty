@@ -1800,6 +1800,67 @@ table.darkTable tfoot td {
   line-height: 22px;
 }
 
+.neon_post {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "a b";
+  gap: 20px;
+  max-width: 928px;
+  margin-top: 50px;
+}
+
+.neon_post__text {
+  grid-area: b;
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+.neon_post__list {
+  padding-left: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.neon_post__list li {
+  margin-bottom: 10px;
+}
+
+.neon-benefits {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 928px;
+  margin: 50px 0;
+}
+
+.neon-benefits__cell {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 3fr 1fr;
+  width: 440px;
+}
+
+.neon-benefits__paragraph {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.neon_post_wide {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: "a b";
+  gap: 20px;
+  max-width: 928px;
+  margin: 50px;
+}
+
+.neon_post_wide__text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
 @media (max-width: 768px) {
   .firstHeader {
     padding: 0;
