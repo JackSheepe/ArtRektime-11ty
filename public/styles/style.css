@@ -1810,6 +1810,11 @@ table.darkTable tfoot td {
   margin-top: 50px;
 }
 
+.neon_post img {
+  object-fit: contain;
+  max-width: 100%;
+}
+
 .neon_post__text {
   grid-area: b;
   padding-left: 40px;
@@ -1828,7 +1833,7 @@ table.darkTable tfoot td {
 
 .neon-benefits {
   display: flex;
-  gap: 20px;
+  gap: 30px;
   flex-wrap: wrap;
   max-width: 928px;
   margin: 50px 0;
@@ -1836,14 +1841,23 @@ table.darkTable tfoot td {
 
 .neon-benefits__cell {
   display: grid;
-  gap: 10px;
+  gap: 20px;
   grid-template-columns: 3fr 1fr;
-  width: 440px;
+  max-width: 440px;
+}
+
+.neon-benefits__cell h2 {
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 .neon-benefits__paragraph {
   font-size: 14px;
   font-weight: 600;
+}
+
+.neon-benefits__icon {
+  max-width: 100%;
 }
 
 .neon_post_wide {
@@ -2181,6 +2195,19 @@ table.darkTable tfoot td {
   .acrylbenefits5::after {
     opacity: 1;
     transition: ease-in-out 300ms;
+  }
+  .neon_post,
+  .neon_post_wide {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .neon-benefits {
+    margin: 20px;
+    justify-content: center;
+  }
+  .neon-benefits__cell h2 {
+    padding: 0;
   }
 }
 
