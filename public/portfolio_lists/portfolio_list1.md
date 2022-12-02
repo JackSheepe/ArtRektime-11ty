@@ -24,7 +24,7 @@ data-name="{{ viveska.data.name }}"
 data-description="{{ viveska.data.description }}"
 >
 <div class="portfolio_works_imgcontainer">
-<img src="{{ viveska.data.img }}" alt="{{ viveska.data.alt }}" />
+<img src="{{ viveska.data.img }}" alt="{{ viveska.data.alt }}" loading="lazy"/>
 </div>
 </div>
 {% endfor %}
@@ -48,7 +48,7 @@ data-name="{{ lightbox.data.name }}"
 data-description="{{ lightbox.data.description }}"
 >
 <div class="portfolio_works_imgcontainer">
-<img src="{{ lightbox.data.img }}" alt="{{ lightbox.data.alt }}" />
+<img src="{{ lightbox.data.img }}" alt="{{ lightbox.data.alt }}" loading="lazy"/>
 </div>
 </div>
 {% endfor %}
@@ -73,7 +73,7 @@ data-name="{{ table.data.name }}"
 data-description="{{ table.data.description }}"
 >
 <div class="portfolio_works_imgcontainer">
-<img src="{{ table.data.img }}" alt="{{ table.data.alt }}" />
+<img src="{{ table.data.img }}" alt="{{ table.data.alt }}" loading="lazy"/>
 </div>
 </div>
 {% endfor %}
@@ -98,7 +98,7 @@ data-name="{{ stand.data.name }}"
 data-description="{{ stand.data.description }}"
 >
 <div class="portfolio_works_imgcontainer">
-<img src="{{ stand.data.img }}" alt="{{ stand.data.alt }}" />
+<img src="{{ stand.data.img }}" alt="{{ stand.data.alt }}" loading="lazy"/>
 </div>
 </div>
 {% endfor %}
@@ -122,7 +122,7 @@ data-name="{{ shtender.data.name }}"
 data-description="{{ shtender.data.description }}"
 >
 <div class="portfolio_works_imgcontainer">
-<img src="{{ shtender.data.img }}" alt="{{ shtender.data.alt }}" />
+<img src="{{ shtender.data.img }}" alt="{{ shtender.data.alt }}" loading="lazy"/>
 </div>
 </div>
 {% endfor %}
@@ -146,7 +146,7 @@ data-name="{{ fireSafety.data.name }}"
 data-description="{{ fireSafety.data.description }}"
 >
 <div class="portfolio_works_imgcontainer">
-<img src="{{ fireSafety.data.img }}" alt="{{ fireSafety.data.alt }}" />
+<img src="{{ fireSafety.data.img }}" alt="{{ fireSafety.data.alt }}" loading="lazy"/>
 </div>
 </div>
 {% endfor %}
@@ -170,7 +170,7 @@ data-name="{{ plotter.data.name }}"
 data-description="{{ plotter.data.description }}"
 >
 <div class="portfolio_works_imgcontainer">
-<img src="{{ plotter.data.img }}" alt="{{ plotter.data.alt }}" />
+<img src="{{ plotter.data.img }}" alt="{{ plotter.data.alt }}" loading="lazy"/>
 </div>
 </div>
 {% endfor %}
