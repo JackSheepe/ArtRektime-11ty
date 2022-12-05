@@ -6,11 +6,13 @@ description: "Список производимой нами полиграфи�
 
 <article class="forClient">
   <h1 class="greyBackground">Полиграфия</h1>
-  <div class="image_container__flex">
-    <img src="/assets/img/pic/polygraphy.jpg" alt="наружная реклама" />
+  <div class="container__flex__center">
+    <div class="image_container__flex">
+      <img src="/assets/img/pic/polygraphy.jpg" alt="наружная реклама" />
+    </div>
   </div>
   {% for polygraphy in collections.polygraphy %}
-  <div class="columnsWimageNlinks">
+  <div class="columnsWimageNlinks" id="polygraphy{{ loop.index }}">
     <div class="columnsWimageNlinks_title">
       <a href="{{ polygraphy.url }}"> <h1>{{ polygraphy.data.title }}</h1></a>
     </div>

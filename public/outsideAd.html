@@ -6,30 +6,34 @@ description: "Список производимой нами наружной р
 
 <article class="forClient">
   <h1 class="greyBackground">Наружная реклама</h1>
-  <div class="image_container__flex">
-    <img src="/assets/img/pic/outsideAdBanner.jpg" alt="наружная реклама" />
-  </div>
-  {% for outsideAd in collections.outsideAd %}
-  <div class="columnsWimageNlinks">
-    <div class="columnsWimageNlinks_title">
-      <a href="{{ outsideAd.url }}"> <h1>{{ outsideAd.data.title }}</h1></a>
-    </div>
-    <div class="columnsWimageNlinks_links">
-      <p class="portfolio_jobs">
-        {% for вид in outsideAd.data.list %}
-        <a href="{{ outsideAd.url }}">{{ вид }}</a>
-        {% endfor %} {{ outsideAd.data.text }}
-      </p>
-    </div>
-    <div class="columnsWimageNlinks_linebox">
-      <div class="columnsWimageNlinks_linebox_line"></div>
-    </div>
-    <div class="columnsWimageNlinks_linebox2">
-      <div class="columnsWimageNlinks_linebox_line"></div>
-    </div>
-    <div class="columnsWimageNlinks_image">
-      <img src="{{ outsideAd.data.image }}" alt="{{ outsideAd.data.alt }}" />
+  <div class="container__flex__center">
+    <div class="image_container__flex">
+      <img src="/assets/img/pic/outsideAdBanner.jpg" alt="наружная реклама" />
     </div>
   </div>
-  {% endfor %}
+  <section class="container__flex__center">
+    {% for outsideAd in collections.outsideAd %}
+    <div class="columnsWimageNlinks" id="outsideAd{{ loop.index }}">
+      <div class="columnsWimageNlinks_title">
+        <a href="{{ outsideAd.url }}"> <h1>{{ outsideAd.data.title }}</h1></a>
+      </div>
+      <div class="columnsWimageNlinks_links">
+        <p class="portfolio_jobs">
+          {% for вид in outsideAd.data.list %}
+          <a href="{{ outsideAd.url }}">{{ вид }}</a>
+          {% endfor %} {{ outsideAd.data.text }}
+        </p>
+      </div>
+      <div class="columnsWimageNlinks_linebox">
+        <div class="columnsWimageNlinks_linebox_line"></div>
+      </div>
+      <div class="columnsWimageNlinks_linebox2">
+        <div class="columnsWimageNlinks_linebox_line"></div>
+      </div>
+      <div class="columnsWimageNlinks_image">
+        <img src="{{ outsideAd.data.image }}" alt="{{ outsideAd.data.alt }}" />
+      </div>
+    </div>
+    {% endfor %}
+  </section>
 </article>
