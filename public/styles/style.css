@@ -379,6 +379,7 @@ a {
   padding: 15px 0;
   background-color: rgb(242, 242, 242);
   box-shadow: inset 0px 2px 2px rgba(145, 145, 145, 0.705);
+  box-sizing: border-box;
 }
 
 .greyBackground__H1separatelineP {
