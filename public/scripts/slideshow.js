@@ -1,9 +1,17 @@
-let slideIndex = 1;
-showSlides(slideIndex);
+let slideIndex = 0;
+let slidesTimeoutId = null;
+autoSLides();
+
+function autoSLides() {
+  showSlides((slideIndex += 1));
+  slidesTimeoutId = setTimeout(autoSLides, 5000);
+}
 
 // Next/previous controls
 function plusSlides(n) {
   showSlides((slideIndex += n));
+  clearTimeout(slidesTimeoutId);
+  setTimeout(autoSLides, 30000);
 }
 
 // Thumbnail image controls
