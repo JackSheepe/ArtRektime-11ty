@@ -5,18 +5,18 @@ portfolioListLitle: Наружная реклама
 список_продукции:
   - вывески
   - лайтбоксы
-  - буквы и элементы
   - таблички
-  - стенды, штендеры и рекламные конструкции
+  - стенды
+  - штендеры и рекламные конструкции
   - пожарная безопасность
   - плоттерная резка
 links:
 ---
 
-<h1>Вывески</h1>
+<h1 id="1">Вывески</h1>
 
 <div class="portfolio_works_container">
-<div class="portfolio_works__grid">
+<div class="portfolio_works__grid" id="portfolio-works-grid">
 {% for viveska in collections.viveska %}
 <div
 class="portfolio_works_wrapper"
@@ -29,18 +29,22 @@ data-description="{{ viveska.data.description }}"
 </div>
 {% endfor %}
 </div>
+<div class="portfolio_works__grid-description">
+<p class="portfolio_works__grid-description-title"></p>
+<p class="portfolio_works__grid-description-sub"></p>
+</div>
 </div>
 <div class="pagination">
-<div class="pagination-prev">Prev</div>
+<a href="#1" class="pagination-prev">Назад</a>
 <div class="pagination-page">
-Page <span class="pagination-page-num">1</span>
+Страница <span class="pagination-page-num">1</span>
 </div>
-<div class="pagination-next">Next</div>
+<a href="#1" class="pagination-next">Вперёд</a>
 </div>
 
-<h1>Лайтбоксы</h1>
+<h1 id="2">Лайтбоксы</h1>
 <div class="portfolio_works_container">
-<div class="portfolio_works__grid2__1row">
+<div class="portfolio_works__grid2__1row" id="portfolio-works-grid2-1row">
 {% for lightbox in collections.lightbox %}
 <div
 class="portfolio_works_wrapper"
@@ -53,19 +57,23 @@ data-description="{{ lightbox.data.description }}"
 </div>
 {% endfor %}
 </div>
+<div class="portfolio_works__grid-description">
+<p class="portfolio_works__grid2__1row-description-title"></p>
+<p class="portfolio_works__grid2__1row-description-sub"></p>
+</div>
 </div>
 <div class="pagination">
-<div class="pagination-prev2">Prev</div>
+<a href="#2" class="pagination-prev2">Назад</a>
 <div class="pagination-page">
-Page <span class="pagination-page-num2">1</span>
+Страница <span class="pagination-page-num2">1</span>
 </div>
-<div class="pagination-next2">Next</div>
+<a href="#2" class="pagination-next2">Вперёд</a>
 </div>
 
-<h1>Таблички</h1>
+<h1 id="3">Таблички</h1>
 
 <div class="portfolio_works_container">
-<div class="portfolio_works__grid3">
+<div class="portfolio_works__grid3" id="portfolio-works-grid3">
 {% for table in collections.table %}
 <div
 class="portfolio_works_wrapper"
@@ -78,19 +86,23 @@ data-description="{{ table.data.description }}"
 </div>
 {% endfor %}
 </div>
+<div class="portfolio_works__grid-description">
+<p class="portfolio_works__grid3-description-title"></p>
+<p class="portfolio_works__grid3-description-sub"></p>
+</div>
 </div>
 <div class="pagination">
-<div class="pagination-prev3">Prev</div>
+<a href="#3" class="pagination-prev3">Назад</a>
 <div class="pagination-page">
-Page <span class="pagination-page-num3">1</span>
+Страница <span class="pagination-page-num3">1</span>
 </div>
-<div class="pagination-next3">Next</div>
+<a href="#3" class="pagination-next3">Вперёд</a>
 </div>
 
-<h1>Стенды</h1>
+<h1 id="4">Стенды</h1>
 
 <div class="portfolio_works_container">
-<div class="portfolio_works__grid4">
+<div class="portfolio_works__grid4" id="portfolio-works-grid4">
 {% for stand in collections.stand %}
 <div
 class="portfolio_works_wrapper"
@@ -103,18 +115,22 @@ data-description="{{ stand.data.description }}"
 </div>
 {% endfor %}
 </div>
+<div class="portfolio_works__grid-description">
+<p class="portfolio_works__grid4-description-title"></p>
+<p class="portfolio_works__grid4-description-sub"></p>
+</div>
 </div>
 <div class="pagination">
-<div class="pagination-prev4">Prev</div>
+<a href="#4" class="pagination-prev4">Назад</a>
 <div class="pagination-page">
-Page <span class="pagination-page-num4">1</span>
+Страница <span class="pagination-page-num4">1</span>
 </div>
-<div class="pagination-next4">Next</div>
+<a href="#4" class="pagination-next4">Вперёд</a>
 </div>
 
-<h1>Штендеры и рекламные конструкции</h1>
+<h1 id="5">Штендеры и рекламные конструкции</h1>
 <div class="portfolio_works_container">
-<div class="portfolio_works__grid5__1row">
+<div class="portfolio_works__grid5__1row" id="portfolio-works-grid5">
 {% for shtender in collections.shtender %}
 <div
 class="portfolio_works_wrapper"
@@ -127,18 +143,22 @@ data-description="{{ shtender.data.description }}"
 </div>
 {% endfor %}
 </div>
+<div class="portfolio_works__grid-description">
+<p class="portfolio_works__grid5__1row-description-title"></p>
+<p class="portfolio_works__grid5__1row-description-sub"></p>
+</div>
 </div>
 <div class="pagination">
-<div class="pagination-prev5">Prev</div>
+<a href="#5" class="pagination-prev5">Назад</a>
 <div class="pagination-page">
-Page <span class="pagination-page-num5">1</span>
+Страница <span class="pagination-page-num5">1</span>
 </div>
-<div class="pagination-next5">Next</div>
+<a href="#5" class="pagination-next5">Вперёд</a>
 </div>
 
-<h1>Пожарная безопасность</h1>
+<h1 id="6">Пожарная безопасность</h1>
 <div class="portfolio_works_container">
-<div class="portfolio_works__grid6__1row">
+<div class="portfolio_works__grid6__1row" id="portfolio-works-grid6">
 {% for fireSafety in collections.fireSafety %}
 <div
 class="portfolio_works_wrapper"
@@ -151,18 +171,22 @@ data-description="{{ fireSafety.data.description }}"
 </div>
 {% endfor %}
 </div>
+<div class="portfolio_works__grid-description">
+<p class="portfolio_works__grid6__1row-description-title"></p>
+<p class="portfolio_works__grid6__1row-description-sub"></p>
+</div>
 </div>
 <div class="pagination">
-<div class="pagination-prev6">Prev</div>
+<a href="#6" class="pagination-prev6">Назад</a>
 <div class="pagination-page">
-Page <span class="pagination-page-num6">1</span>
+Страница <span class="pagination-page-num6">1</span>
 </div>
-<div class="pagination-next6">Next</div>
+<a href="#6" class="pagination-next6">Вперёд</a>
 </div>
 
-<h1>Плоттерная резка и наклейки</h1>
+<h1 id="7">Плоттерная резка и наклейки</h1>
 <div class="portfolio_works_container">
-<div class="portfolio_works__grid7__1row">
+<div class="portfolio_works__grid7__1row" id="portfolio-works-grid7npmтзь">
 {% for plotter in collections.plotter %}
 <div
 class="portfolio_works_wrapper"
@@ -175,11 +199,15 @@ data-description="{{ plotter.data.description }}"
 </div>
 {% endfor %}
 </div>
+<div class="portfolio_works__grid-description">
+<p class="portfolio_works__grid7__1row-description-title"></p>
+<p class="portfolio_works__grid7__1row-description-sub"></p>
+</div>
 </div>
 <div class="pagination">
-<div class="pagination-prev7">Prev</div>
+<a href="#7" class="pagination-prev7">Назад</a>
 <div class="pagination-page">
-Page <span class="pagination-page-num7">1</span>
+Страница <span class="pagination-page-num7">1</span>
 </div>
-<div class="pagination-next7">Next</div>
+<a href="#7" class="pagination-next7">Вперёд</a>
 </div>

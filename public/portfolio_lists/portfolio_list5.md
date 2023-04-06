@@ -5,10 +5,9 @@ portfolioListLitle: Фрезерная резка с ЧПУ
 список_продукции:
   - буквы
 links:
-  - https://letters.html
 ---
 
-<h1>Фрезерно-гравировальные услуги
+<h1 id="1">Фрезерно-гравировальные услуги
 </h1>
 
 <div class="portfolio_works_container">
@@ -25,11 +24,15 @@ data-description="{{ frezer.data.description }}"
 </div>
 {% endfor %}
 </div>
+<div class="portfolio_works__grid-description">
+<p class="portfolio_works__grid4-description-title"></p>
+<p class="portfolio_works__grid4-description-sub"></p>
+</div>
 </div>
 <div class="pagination">
-<div class="pagination-prev4">Prev</div>
+<a href="#1" class="pagination-prev4">Назад</a>
 <div class="pagination-page">
-Page <span class="pagination-page-num4">1</span>
+Страница <span class="pagination-page-num4">1</span>
 </div>
-<div class="pagination-next4">Next</div>
+<a href="#1" class="pagination-next4">Вперёд</a>
 </div>

@@ -9,14 +9,9 @@ portfolioListLitle: Дизайн
   - резерно-гравировальные услуги
   - стеллы и доски почета
 links:
-  - https://viviski_design.html
-  - https://fasade.html
-  - https://logos.html
-  - https://gravirovka.html
-  - https://stella.html
 ---
 
-<h1>Вывески</h1>
+<h1 id="#1">Вывески</h1>
 
 <div class="portfolio_works_container">
 <div class="portfolio_works__grid">
@@ -32,16 +27,20 @@ data-description="{{ viveska_design.data.description }}"
 </div>
 {% endfor %}
 </div>
+<div class="portfolio_works__grid-description">
+<p class="portfolio_works__grid-description-title"></p>
+<p class="portfolio_works__grid-description-sub"></p>
+</div>
 </div>
 <div class="pagination">
-<div class="pagination-prev">Prev</div>
+<a href="#1" class="pagination-prev">Назад</a>
 <div class="pagination-page">
-Page <span class="pagination-page-num">1</span>
+Страница <span class="pagination-page-num">1</span>
 </div>
-<div class="pagination-next">Next</div>
+<a href="#1" class="pagination-next">Вперёд</a>
 </div>
 
-<h1>Оформление фасадов
+<h1 id="2">Оформление фасадов
 </h1>
 
 <div class="portfolio_works_container">
@@ -58,16 +57,20 @@ data-description="{{ fasade.data.description }}"
 </div>
 {% endfor %}
 </div>
+<div class="portfolio_works__grid-description">
+<p class="portfolio_works__grid2__1row-description-title"></p>
+<p class="portfolio_works__grid2__1row-description-sub"></p>
+</div>
 </div>
 <div class="pagination">
-<div class="pagination-prev2">Prev</div>
+<a href="#2" class="pagination-prev2">Назад</a>
 <div class="pagination-page">
-Page <span class="pagination-page-num2">1</span>
+Страница <span class="pagination-page-num2">1</span>
 </div>
-<div class="pagination-next2">Next</div>
+<a href="#2" class="pagination-next2">Вперёд</a>
 </div>
 
-<h1>Логотипы</h1>
+<h1 id="3">Логотипы</h1>
 
 <div class="portfolio_works_container">
 <div class="portfolio_works__grid3">
@@ -83,16 +86,20 @@ data-description="{{ logo.data.description }}"
 </div>
 {% endfor %}
 </div>
+<div class="portfolio_works__grid-description">
+<p class="portfolio_works__grid3-description-title"></p>
+<p class="portfolio_works__grid3-description-sub"></p>
+</div>
 </div>
 <div class="pagination">
-<div class="pagination-prev3">Prev</div>
+<a href="#3" class="pagination-prev3">Назад</a>
 <div class="pagination-page">
-Page <span class="pagination-page-num3">1</span>
+Страница <span class="pagination-page-num3">1</span>
 </div>
-<div class="pagination-next3">Next</div>
+<a href="#3" class="pagination-next3">Вперёд</a>
 </div>
 
-<h1>Фрезерно-гравировальные услуги
+<h1 id="4">Фрезерно-гравировальные услуги
 </h1>
 
 <div class="portfolio_works_container">
@@ -109,16 +116,20 @@ data-description="{{ frezer.data.description }}"
 </div>
 {% endfor %}
 </div>
+<div class="portfolio_works__grid-description">
+<p class="portfolio_works__grid4-description-title"></p>
+<p class="portfolio_works__grid4-description-sub"></p>
+</div>
 </div>
 <div class="pagination">
-<div class="pagination-prev4">Prev</div>
+<a href="#4" class="pagination-prev4">Назад</a>
 <div class="pagination-page">
-Page <span class="pagination-page-num4">1</span>
+Страница <span class="pagination-page-num4">1</span>
 </div>
-<div class="pagination-next4">Next</div>
+<a href="#4" class="pagination-next4">Вперёд</a>
 </div>
 
-<h1>Стеллы и Доски Почета
+<h1 id="5">Стеллы и Доски Почета
 </h1>
 
 <div class="portfolio_works_container">
@@ -135,11 +146,15 @@ data-description="{{ stella.data.description }}"
 </div>
 {% endfor %}
 </div>
+<div class="portfolio_works__grid-description">
+<p class="portfolio_works__grid5-description-title"></p>
+<p class="portfolio_works__grid5-description-sub"></p>
+</div>
 </div>
 <div class="pagination">
-<div class="pagination-prev5">Prev</div>
+<a href="#5" class="pagination-prev5">Назад</a>
 <div class="pagination-page">
-Page <span class="pagination-page-num5">1</span>
+Страница <span class="pagination-page-num5">1</span>
 </div>
-<div class="pagination-next5">Next</div>
+<a href="#5" class="pagination-next5">Вперёд</a>
 </div>

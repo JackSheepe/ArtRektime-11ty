@@ -15,255 +15,23 @@ for (var i = 0; i < loc.length; i++) {
   loc[i].addEventListener("mouseout", locOut);
 }
 
-var descript = null;
-var title = null;
+let descript = null;
+let title = null;
+let parent = null;
 
 function locOver(event) {
-  descript = event.currentTarget.getAttribute("data-description");
-  title = event.currentTarget.getAttribute("data-name");
-  document.documentElement.style.setProperty(
-    "--gallery-description",
-    "'" + descript + "'"
-  );
-  document.documentElement.style.setProperty(
-    "--gallery-title",
-    "'" + title + "'"
-  );
-
-  if (
-    event.currentTarget.parentElement?.classList.contains(
-      "portfolio_works__grid2__1row"
-    ) === true
-  ) {
-    document.documentElement.style.setProperty("--gallery-description", "' '");
-    document.documentElement.style.setProperty("--gallery-title", "' '");
-    document.documentElement.style.setProperty("--gallery-description3", "' '");
-    document.documentElement.style.setProperty("--gallery-title3", "' '");
-    document.documentElement.style.setProperty("--gallery-description4", "' '");
-    document.documentElement.style.setProperty("--gallery-title4", "' '");
-    document.documentElement.style.setProperty("--gallery-description5", "' '");
-    document.documentElement.style.setProperty("--gallery-title5", "' '");
-    document.documentElement.style.setProperty("--gallery-description6", "' '");
-    document.documentElement.style.setProperty("--gallery-title6", "' '");
-    document.documentElement.style.setProperty("--gallery-description7", "' '");
-    document.documentElement.style.setProperty("--gallery-title7", "' '");
-    document.documentElement.style.setProperty(
-      "--gallery-description2",
-      "'" + descript + "'"
-    );
-    document.documentElement.style.setProperty(
-      "--gallery-title2",
-      "'" + title + "'"
-    );
-  }
-
-  if (
-    event.currentTarget.parentElement?.classList.contains(
-      "portfolio_works__grid3"
-    ) === true
-  ) {
-    document.documentElement.style.setProperty("--gallery-description", "' '");
-    document.documentElement.style.setProperty("--gallery-title", "' '");
-    document.documentElement.style.setProperty("--gallery-description2", "' '");
-    document.documentElement.style.setProperty("--gallery-title2", "' '");
-    document.documentElement.style.setProperty("--gallery-description4", "' '");
-    document.documentElement.style.setProperty("--gallery-title4", "' '");
-    document.documentElement.style.setProperty("--gallery-description5", "' '");
-    document.documentElement.style.setProperty("--gallery-title5", "' '");
-    document.documentElement.style.setProperty("--gallery-description6", "' '");
-    document.documentElement.style.setProperty("--gallery-title6", "' '");
-    document.documentElement.style.setProperty("--gallery-description7", "' '");
-    document.documentElement.style.setProperty("--gallery-title7", "' '");
-    document.documentElement.style.setProperty(
-      "--gallery-description3",
-      "'" + descript + "'"
-    );
-    document.documentElement.style.setProperty(
-      "--gallery-title3",
-      "'" + title + "'"
-    );
-  }
-
-  if (
-    event.currentTarget.parentElement?.classList.contains(
-      "portfolio_works__grid4"
-    ) === true
-  ) {
-    document.documentElement.style.setProperty("--gallery-description", "' '");
-    document.documentElement.style.setProperty("--gallery-title", "' '");
-    document.documentElement.style.setProperty("--gallery-description2", "' '");
-    document.documentElement.style.setProperty("--gallery-title2", "' '");
-    document.documentElement.style.setProperty("--gallery-description3", "' '");
-    document.documentElement.style.setProperty("--gallery-title3", "' '");
-    document.documentElement.style.setProperty("--gallery-description5", "' '");
-    document.documentElement.style.setProperty("--gallery-title5", "' '");
-    document.documentElement.style.setProperty("--gallery-description6", "' '");
-    document.documentElement.style.setProperty("--gallery-title6", "' '");
-    document.documentElement.style.setProperty("--gallery-description7", "' '");
-    document.documentElement.style.setProperty("--gallery-title7", "' '");
-    document.documentElement.style.setProperty(
-      "--gallery-description4",
-      "'" + descript + "'"
-    );
-    document.documentElement.style.setProperty(
-      "--gallery-title4",
-      "'" + title + "'"
-    );
-  }
-
-  if (
-    event.currentTarget.parentElement?.classList.contains(
-      "portfolio_works__grid5__1row"
-    ) === true
-  ) {
-    document.documentElement.style.setProperty("--gallery-description", "' '");
-    document.documentElement.style.setProperty("--gallery-title", "' '");
-    document.documentElement.style.setProperty("--gallery-description2", "' '");
-    document.documentElement.style.setProperty("--gallery-title2", "' '");
-    document.documentElement.style.setProperty("--gallery-description3", "' '");
-    document.documentElement.style.setProperty("--gallery-title3", "' '");
-    document.documentElement.style.setProperty("--gallery-description4", "' '");
-    document.documentElement.style.setProperty("--gallery-title4", "' '");
-    document.documentElement.style.setProperty("--gallery-description6", "' '");
-    document.documentElement.style.setProperty("--gallery-title6", "' '");
-    document.documentElement.style.setProperty("--gallery-description7", "' '");
-    document.documentElement.style.setProperty("--gallery-title7", "' '");
-    document.documentElement.style.setProperty(
-      "--gallery-description5",
-      "'" + descript + "'"
-    );
-    document.documentElement.style.setProperty(
-      "--gallery-title5",
-      "'" + title + "'"
-    );
-  }
-
-  if (
-    event.currentTarget.parentElement?.classList.contains(
-      "portfolio_works__grid6__1row"
-    ) === true
-  ) {
-    document.documentElement.style.setProperty("--gallery-description", "' '");
-    document.documentElement.style.setProperty("--gallery-title", "' '");
-    document.documentElement.style.setProperty("--gallery-description2", "' '");
-    document.documentElement.style.setProperty("--gallery-title2", "' '");
-    document.documentElement.style.setProperty("--gallery-description3", "' '");
-    document.documentElement.style.setProperty("--gallery-title3", "' '");
-    document.documentElement.style.setProperty("--gallery-description4", "' '");
-    document.documentElement.style.setProperty("--gallery-title4", "' '");
-    document.documentElement.style.setProperty("--gallery-description5", "' '");
-    document.documentElement.style.setProperty("--gallery-title5", "' '");
-    document.documentElement.style.setProperty("--gallery-description7", "' '");
-    document.documentElement.style.setProperty("--gallery-title7", "' '");
-    document.documentElement.style.setProperty(
-      "--gallery-description6",
-      "'" + descript + "'"
-    );
-    document.documentElement.style.setProperty(
-      "--gallery-title6",
-      "'" + title + "'"
-    );
-  }
-
-  if (
-    event.currentTarget.parentElement?.classList.contains(
-      "portfolio_works__grid7__1row"
-    ) === true
-  ) {
-    document.documentElement.style.setProperty("--gallery-description", "' '");
-    document.documentElement.style.setProperty("--gallery-title", "' '");
-    document.documentElement.style.setProperty("--gallery-description2", "' '");
-    document.documentElement.style.setProperty("--gallery-title2", "' '");
-    document.documentElement.style.setProperty("--gallery-description3", "' '");
-    document.documentElement.style.setProperty("--gallery-title3", "' '");
-    document.documentElement.style.setProperty("--gallery-description4", "' '");
-    document.documentElement.style.setProperty("--gallery-title4", "' '");
-    document.documentElement.style.setProperty("--gallery-description5", "' '");
-    document.documentElement.style.setProperty("--gallery-title5", "' '");
-    document.documentElement.style.setProperty("--gallery-description6", "' '");
-    document.documentElement.style.setProperty("--gallery-title6", "' '");
-    document.documentElement.style.setProperty(
-      "--gallery-description7",
-      "'" + descript + "'"
-    );
-    document.documentElement.style.setProperty(
-      "--gallery-title7",
-      "'" + title + "'"
-    );
-  }
-
-  if (
-    event.currentTarget.parentElement?.classList.contains(
-      "portfolio_works__grid6__1row"
-    ) === true
-  ) {
-    document.documentElement.style.setProperty("--gallery-description", "' '");
-    document.documentElement.style.setProperty("--gallery-title", "' '");
-    document.documentElement.style.setProperty("--gallery-description2", "' '");
-    document.documentElement.style.setProperty("--gallery-title2", "' '");
-    document.documentElement.style.setProperty("--gallery-description3", "' '");
-    document.documentElement.style.setProperty("--gallery-title3", "' '");
-    document.documentElement.style.setProperty("--gallery-description4", "' '");
-    document.documentElement.style.setProperty("--gallery-title4", "' '");
-    document.documentElement.style.setProperty("--gallery-description5", "' '");
-    document.documentElement.style.setProperty("--gallery-title5", "' '");
-    document.documentElement.style.setProperty("--gallery-description7", "' '");
-    document.documentElement.style.setProperty("--gallery-title7", "' '");
-    document.documentElement.style.setProperty(
-      "--gallery-description6",
-      "'" + descript + "'"
-    );
-    document.documentElement.style.setProperty(
-      "--gallery-title6",
-      "'" + title + "'"
-    );
-  }
-
-  if (
-    event.currentTarget.parentElement?.classList.contains(
-      "portfolio_works__grid8"
-    ) === true
-  ) {
-    document.documentElement.style.setProperty("--gallery-description", "' '");
-    document.documentElement.style.setProperty("--gallery-title", "' '");
-    document.documentElement.style.setProperty("--gallery-description2", "' '");
-    document.documentElement.style.setProperty("--gallery-title2", "' '");
-    document.documentElement.style.setProperty("--gallery-description3", "' '");
-    document.documentElement.style.setProperty("--gallery-title3", "' '");
-    document.documentElement.style.setProperty("--gallery-description4", "' '");
-    document.documentElement.style.setProperty("--gallery-title4", "' '");
-    document.documentElement.style.setProperty("--gallery-description5", "' '");
-    document.documentElement.style.setProperty("--gallery-title5", "' '");
-    document.documentElement.style.setProperty("--gallery-description6", "' '");
-    document.documentElement.style.setProperty("--gallery-title6", "' '");
-    document.documentElement.style.setProperty(
-      "--gallery-description8",
-      "'" + descript + "'"
-    );
-    document.documentElement.style.setProperty(
-      "--gallery-title8",
-      "'" + title + "'"
-    );
-  }
+  descriptText = event.currentTarget.getAttribute("data-description");
+  titleText = event.currentTarget.getAttribute("data-name");
+  parent = event.currentTarget.parentElement.classList[0];
+  descriptElTitle = document.querySelector(`.${parent}-description-title`);
+  descriptElSub = document.querySelector(`.${parent}-description-sub`);
+  descriptElTitle.textContent = titleText;
+  descriptElSub.textContent = descriptText;
 }
 
 function locOut() {
-  document.documentElement.style.setProperty("--gallery-description", "' '");
-  document.documentElement.style.setProperty("--gallery-title", "' '");
-  document.documentElement.style.setProperty("--gallery-description2", "' '");
-  document.documentElement.style.setProperty("--gallery-title2", "' '");
-  document.documentElement.style.setProperty("--gallery-description3", "' '");
-  document.documentElement.style.setProperty("--gallery-title3", "' '");
-  document.documentElement.style.setProperty("--gallery-description4", "' '");
-  document.documentElement.style.setProperty("--gallery-title4", "' '");
-  document.documentElement.style.setProperty("--gallery-description5", "' '");
-  document.documentElement.style.setProperty("--gallery-title5", "' '");
-  document.documentElement.style.setProperty("--gallery-description6", "' '");
-  document.documentElement.style.setProperty("--gallery-title6", "' '");
-  document.documentElement.style.setProperty("--gallery-description7", "' '");
-  document.documentElement.style.setProperty("--gallery-title7", "' '");
-  document.documentElement.style.setProperty("--gallery-description8", "' '");
-  document.documentElement.style.setProperty("--gallery-title8", "' '");
+  descriptElTitle.textContent = " ";
+  descriptElSub.textContent = " ";
 }
 
 // open image
@@ -314,7 +82,7 @@ if (galleryImages) {
         // let calcImgToEdge = (windowWidth - imgWidth) / 2 - 80;
 
         let newNextBtn = document.createElement("a");
-        let btnNextText = document.createTextNode("Next");
+        let btnNextText = document.createTextNode("Вперёд");
         newNextBtn.appendChild(btnNextText);
         container.appendChild(newNextBtn);
         newNextBtn.setAttribute("class", "img-btn-next");
@@ -322,7 +90,7 @@ if (galleryImages) {
         // newNextBtn.style.cssText = "right: " + calcImgToEdge + "px;";
 
         let newPrevBtn = document.createElement("a");
-        let btnPrevText = document.createTextNode("Prev");
+        let btnPrevText = document.createTextNode("Назад");
         newPrevBtn.appendChild(btnPrevText);
         container.appendChild(newPrevBtn);
         newPrevBtn.setAttribute("class", "img-btn-prev");
@@ -361,7 +129,7 @@ function changeImg(changeDir) {
   } else if (changeDir === 0) {
     calcNewImg = getLatesOpenedImg - 1;
     if (calcNewImg < 1) {
-      calcNewImg = galleryImages.length;
+      calcNewImg = galleryImages.length - 1;
     }
   }
 

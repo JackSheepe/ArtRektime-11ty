@@ -3,14 +3,11 @@ title: Бегущие строки и LED экраны
 layout: ./layouts/wgallery5.html
 portfolioListLitle: Бегущие строки и LED экраны
 список_продукции:
-  - RGB экраны
-  - бегущие строки
+  - RGB экраны, бегущие строки
 links:
-  - https://rgbScreens.html
-  - https://runningStrings.html
 ---
 
-<h1>Экраны RGB
+<h1 id="1">Экраны RGB
 </h1>
 <div class="portfolio_works_container">
 <div class="portfolio_works__grid5__1row">
@@ -26,11 +23,15 @@ data-description="{{ rgbscreen.data.description }}"
 </div>
 {% endfor %}
 </div>
+<div class="portfolio_works__grid-description">
+<p class="portfolio_works__grid5__1row-description-title"></p>
+<p class="portfolio_works__grid5__1row-description-sub"></p>
+</div>
 </div>
 <div class="pagination">
-<div class="pagination-prev5">Prev</div>
+<a href="#1" class="pagination-prev5">Назад</a>
 <div class="pagination-page">
-Page <span class="pagination-page-num5">1</span>
+Страница <span class="pagination-page-num5">1</span>
 </div>
-<div class="pagination-next5">Next</div>
+<a href="#1" class="pagination-next5">Вперёд</a>
 </div>

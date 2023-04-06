@@ -20,7 +20,7 @@ description: "Галереи созданной нами продукции"
     </div>
     <p class="portfolio_jobs">
       {% for продукция in portfolio_list.data.список_продукции %}
-      <a href="{{ portfolio_list.url }}">{{ продукция }}</a>
+      <a href="{{ portfolio_list.url }}#{{loop.index}}">{{ продукция }}</a>
       {% endfor %}
     </p>
   </div>
