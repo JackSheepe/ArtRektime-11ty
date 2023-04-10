@@ -27,48 +27,73 @@
   </head>
   <body>
     <header>
-  <div class="headerLine2"></div>
-  <nav class="firstHeader" id="myTopnav">
-    <a href="/index.html">На главную</a>
-    <a href="/services/index.html">Услуги и цены</a>
-    <a href="/portfolio/index.html">Портфолио</a>
-    <a href="/forclient/index.html">Клиенту</a>
-    <a href="/paymentanddelivery/index.html">Оплата и доставка</a>
-    <a href="/aboutus/index.html">О нас</a>
-    <a href="/contacts/index.html">Контакты</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <div class="header__line_small"></div>
+  <nav class="header__nav" id="myTopnav">
+    <a class="header__nav-link" href="/index.html">На главную</a>
+    <a class="header__nav-link" href="/services/index.html">Услуги и цены</a>
+    <a class="header__nav-link" href="/portfolio/index.html">Портфолио</a>
+    <a class="header__nav-link" href="/forclient/index.html">Клиенту</a>
+    <a class="header__nav-link" href="/paymentanddelivery/index.html"
+      >Оплата и доставка</a
+    >
+    <a class="header__nav-link" href="/aboutus/index.html">О нас</a>
+    <a class="header__nav-link" href="/contacts/index.html">Контакты</a>
+    <a
+      href="javascript:void(0);"
+      class="header__nav-icon"
+      onclick="myFunction()"
+    >
       <i class="fa fa-bars"></i>
     </a>
   </nav>
-  <div class="headerLine"></div>
-  <div class="secondHeader">
+  <div class="header__line_big"></div>
+  <div class="header__info">
     <a href="/index.html"
-      ><img id="logo" src="/assets/img/icons/Logo.png" alt="Наш логотип"
+      ><img
+        class="header__info-logo"
+        src="/assets/img/icons/Logo.png"
+        alt="Наш логотип"
     /></a>
-    <div class="lineBetween"></div>
-    <div class="contacts">
-      <img src="/assets/img/icons/time.png" alt="иконка времени" />
-      <p>
+    <div class="header__info-line"></div>
+    <div class="header__info-contacts">
+      <img
+        class="header__info-contacts-img"
+        src="/assets/img/icons/time.png"
+        alt="иконка времени"
+      />
+      <p class="header__info-contacts-text">
         Время работы: <br />
         Пн-Пт с 9:00 до 18:00
       </p>
-      <p class="contacts_important">Cб-Вс Выходной</p>
+      <p class="header__info-contacts-important-text important-text">
+        Cб-Вс Выходной
+      </p>
     </div>
-    <div class="lineBetween"></div>
-    <div class="contacts">
-      <img src="/assets/img/icons/geo.png" alt="иконка геолокации" />
-      <p>
+    <div class="header__info-line"></div>
+    <div class="header__info-contacts">
+      <img
+        class="header__info-contacts-img"
+        src="/assets/img/icons/geo.png"
+        alt="иконка геолокации"
+      />
+      <p class="header__info-contacts-text">
         Кемеровская обл. г. Белово, <br />
         ул. Ленина, 1
       </p>
-      <a href="/contacts/index.html" class="contacts_important"
+      <a
+        href="/contacts/index.html"
+        class="header__info-contacts-important-text important-text"
         >Схема проезда</a
       >
     </div>
-    <div class="lineBetween"></div>
-    <div class="contacts">
-      <img src="/assets/img/icons/phone.png" alt="иконка телефона" />
-      <p>
+    <div class="header__info-line"></div>
+    <div class="header__info-contacts">
+      <img
+        class="header__info-contacts-img"
+        src="/assets/img/icons/phone.png"
+        alt="иконка телефона"
+      />
+      <p class="header__info-contacts-text">
         8 923 499 59 59 <br />
         8 (38452) 95 456
       </p>
@@ -76,7 +101,9 @@
         src="/assets/img/icons/7cc1fc607044a2a8c43b08c2699c59d_mv2.png"
         alt="иконка e-mail"
       />
-      <a href="mailto:info@artrektime.ru" class="contacts_important"
+      <a
+        href="mailto:info@artrektime.ru"
+        class="header__info-contacts-important-text important-text"
         >info@artrektime.ru</a
       >
     </div>
@@ -136,16 +163,16 @@
 </div>
 </article>
  <footer>
-  <div class="headerLine"></div>
-  <div class="realFooter">
-    <div>
+  <div class="header__nav-line"></div>
+  <div class="footer">
+    <div class="footer__container">
       <p>
         © ArtRekTime, 2004 <br />
 
         Рекламное агентство
       </p>
     </div>
-    <div>
+    <div class="footer__container">
       <a href="/index.html">На главную</a>
       <a href="/services/index.html">Услуги и цены</a>
       <a href="/portfolio/index.html">Портфолио</a>
@@ -154,7 +181,7 @@
       <a href="/aboutus/index.html">О нас</a>
       <a href="/contacts/index.html">Контакты</a>
     </div>
-    <div>
+    <div class="footer__container">
       <p>
         8 923 499 59 59 <br />
 
@@ -168,7 +195,7 @@
       </p>
       <a href="/contacts/index.html">Схема проезда</a>
     </div>
-    <div>
+    <div class="footer__container">
       <p>
         Разработка сайта: <br />
 

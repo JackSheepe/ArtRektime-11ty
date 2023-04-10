@@ -4,30 +4,36 @@ title: "Наружная реклама"
 description: "Список производимой нами наружной рекламы"
 ---
 
-<article class="forClient">
-  <h1 class="greyBackground">Наружная реклама</h1>
-  <div class="image_container__flex">
+<article class="text-article">
+  <h1 class="main-title big-title greyBackground">Наружная реклама</h1>
+  <div class="image-container_flex">
     <img src="/assets/img/pic/outsideAdBanner.jpg" alt="наружная реклама" />
   </div>
   {% for outsideAd in collections.outsideAd %}
   <div class="columnsWimageNlinks">
-    <div class="columnsWimageNlinks_title">
-      <a href="{{ outsideAd.url }}"> <h1>{{ outsideAd.data.title }}</h1></a>
+    <div class="columnsWimageNlinks__title">
+      <a class="columnsWimageNlinks__title-link" href="{{ outsideAd.url }}">
+        <h1 class="columnsWimageNlinks__title-header">
+          {{ outsideAd.data.title }}
+        </h1></a
+      >
     </div>
-    <div class="columnsWimageNlinks_links">
-      <p class="portfolio_jobs">
+    <div class="columnsWimageNlinks__links-container">
+      <p class="columnsWimageNlinks__links">
         {% for вид in outsideAd.data.list %}
-        <a href="{{ outsideAd.url }}">{{ вид }}</a>
+        <a class="columnsWimageNlinks__links-link" href="{{ outsideAd.url }}"
+          >{{ вид }}</a
+        >
         {% endfor %} {{ outsideAd.data.text }}
       </p>
     </div>
-    <div class="columnsWimageNlinks_linebox">
-      <div class="columnsWimageNlinks_linebox_line"></div>
+    <div class="columnsWimageNlinks__linebox">
+      <div class="columnsWimageNlinks__linebox-line"></div>
     </div>
-    <div class="columnsWimageNlinks_linebox2">
-      <div class="columnsWimageNlinks_linebox_line"></div>
+    <div class="columnsWimageNlinks__linebox2">
+      <div class="columnsWimageNlinks__linebox-line"></div>
     </div>
-    <div class="columnsWimageNlinks_image">
+    <div class="columnsWimageNlinks__image">
       <img src="{{ outsideAd.data.image }}" alt="{{ outsideAd.data.alt }}" />
     </div>
   </div>

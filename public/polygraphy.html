@@ -4,30 +4,36 @@ title: "Полиграфия"
 description: "Список производимой нами полиграфии"
 ---
 
-<article class="forClient">
-  <h1 class="greyBackground">Полиграфия</h1>
-  <div class="image_container__flex">
+<article class="text-article">
+  <h1 class="main-title big-title greyBackground">Полиграфия</h1>
+  <div class="image-container_flex">
     <img src="/assets/img/pic/polygraphy.jpg" alt="наружная реклама" />
   </div>
   {% for polygraphy in collections.polygraphy %}
   <div class="columnsWimageNlinks">
-    <div class="columnsWimageNlinks_title">
-      <a href="{{ polygraphy.url }}"> <h1>{{ polygraphy.data.title }}</h1></a>
+    <div class="columnsWimageNlinks__title">
+      <a class="columnsWimageNlinks__title-link" href="{{ polygraphy.url }}">
+        <h1 class="columnsWimageNlinks__title-header">
+          {{ polygraphy.data.title }}
+        </h1></a
+      >
     </div>
-    <div class="columnsWimageNlinks_links">
-      <p class="portfolio_jobs">
+    <div class="columnsWimageNlinks__links-container">
+      <p class="columnsWimageNlinks__links">
         {% for вид in polygraphy.data.list %}
-        <a href="{{ polygraphy.url }}">{{ вид }}</a>
+        <a class="columnsWimageNlinks__links-link" href="{{ polygraphy.url }}"
+          >{{ вид }}</a
+        >
         {% endfor %} {{ polygraphy.data.text }}
       </p>
     </div>
-    <div class="columnsWimageNlinks_linebox">
-      <div class="columnsWimageNlinks_linebox_line"></div>
+    <div class="columnsWimageNlinks__linebox">
+      <div class="columnsWimageNlinks__linebox-line"></div>
     </div>
-    <div class="columnsWimageNlinks_linebox2">
-      <div class="columnsWimageNlinks_linebox_line"></div>
+    <div class="columnsWimageNlinks__linebox2">
+      <div class="columnsWimageNlinks__linebox-line"></div>
     </div>
-    <div class="columnsWimageNlinks_image">
+    <div class="columnsWimageNlinks__image">
       <img src="{{ polygraphy.data.image }}" alt="{{ polygraphy.data.alt }}" />
     </div>
   </div>

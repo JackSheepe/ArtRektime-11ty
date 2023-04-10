@@ -30,48 +30,73 @@
   </head>
   <body>
     <header>
-  <div class="headerLine2"></div>
-  <nav class="firstHeader" id="myTopnav">
-    <a href="/index.html">На главную</a>
-    <a href="/services/index.html">Услуги и цены</a>
-    <a href="/portfolio/index.html">Портфолио</a>
-    <a href="/forclient/index.html">Клиенту</a>
-    <a href="/paymentanddelivery/index.html">Оплата и доставка</a>
-    <a href="/aboutus/index.html">О нас</a>
-    <a href="/contacts/index.html">Контакты</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <div class="header__line_small"></div>
+  <nav class="header__nav" id="myTopnav">
+    <a class="header__nav-link" href="/index.html">На главную</a>
+    <a class="header__nav-link" href="/services/index.html">Услуги и цены</a>
+    <a class="header__nav-link" href="/portfolio/index.html">Портфолио</a>
+    <a class="header__nav-link" href="/forclient/index.html">Клиенту</a>
+    <a class="header__nav-link" href="/paymentanddelivery/index.html"
+      >Оплата и доставка</a
+    >
+    <a class="header__nav-link" href="/aboutus/index.html">О нас</a>
+    <a class="header__nav-link" href="/contacts/index.html">Контакты</a>
+    <a
+      href="javascript:void(0);"
+      class="header__nav-icon"
+      onclick="myFunction()"
+    >
       <i class="fa fa-bars"></i>
     </a>
   </nav>
-  <div class="headerLine"></div>
-  <div class="secondHeader">
+  <div class="header__line_big"></div>
+  <div class="header__info">
     <a href="/index.html"
-      ><img id="logo" src="/assets/img/icons/Logo.png" alt="Наш логотип"
+      ><img
+        class="header__info-logo"
+        src="/assets/img/icons/Logo.png"
+        alt="Наш логотип"
     /></a>
-    <div class="lineBetween"></div>
-    <div class="contacts">
-      <img src="/assets/img/icons/time.png" alt="иконка времени" />
-      <p>
+    <div class="header__info-line"></div>
+    <div class="header__info-contacts">
+      <img
+        class="header__info-contacts-img"
+        src="/assets/img/icons/time.png"
+        alt="иконка времени"
+      />
+      <p class="header__info-contacts-text">
         Время работы: <br />
         Пн-Пт с 9:00 до 18:00
       </p>
-      <p class="contacts_important">Cб-Вс Выходной</p>
+      <p class="header__info-contacts-important-text important-text">
+        Cб-Вс Выходной
+      </p>
     </div>
-    <div class="lineBetween"></div>
-    <div class="contacts">
-      <img src="/assets/img/icons/geo.png" alt="иконка геолокации" />
-      <p>
+    <div class="header__info-line"></div>
+    <div class="header__info-contacts">
+      <img
+        class="header__info-contacts-img"
+        src="/assets/img/icons/geo.png"
+        alt="иконка геолокации"
+      />
+      <p class="header__info-contacts-text">
         Кемеровская обл. г. Белово, <br />
         ул. Ленина, 1
       </p>
-      <a href="/contacts/index.html" class="contacts_important"
+      <a
+        href="/contacts/index.html"
+        class="header__info-contacts-important-text important-text"
         >Схема проезда</a
       >
     </div>
-    <div class="lineBetween"></div>
-    <div class="contacts">
-      <img src="/assets/img/icons/phone.png" alt="иконка телефона" />
-      <p>
+    <div class="header__info-line"></div>
+    <div class="header__info-contacts">
+      <img
+        class="header__info-contacts-img"
+        src="/assets/img/icons/phone.png"
+        alt="иконка телефона"
+      />
+      <p class="header__info-contacts-text">
         8 923 499 59 59 <br />
         8 (38452) 95 456
       </p>
@@ -79,15 +104,16 @@
         src="/assets/img/icons/7cc1fc607044a2a8c43b08c2699c59d_mv2.png"
         alt="иконка e-mail"
       />
-      <a href="mailto:info@artrektime.ru" class="contacts_important"
+      <a
+        href="mailto:info@artrektime.ru"
+        class="header__info-contacts-important-text important-text"
         >info@artrektime.ru</a
       >
     </div>
   </div>
 </header>
  
-<div class="portfolio_slideshow_container">
-  <div class="slideshow-container">
+<div class="slideshow"><div class="slideshow-container">
   <!-- Full-width images with number and caption text -->
   
   <div class="mySlides fade">
@@ -122,20 +148,19 @@
     
   </div>
 </div>
-
 </div>
 <br />
 <div class="benefits">
-  <div class="benefits_cards">
-    <div class="benefits_cards_title">
+  <div class="benefits__cards">
+    <div class="benefits__cards-title-container">
       <img
-        class="benefits_cards_icon"
+        class="benefits__cards-icon"
         src="assets/img/icons/Proffesionals.png"
         alt="иконка профессионалы"
       />
-      <h2>Профессионально</h2>
+      <h2 class="benefits__cards-title">Профессионально</h2>
     </div>
-    <div class="benefits_cards_text">
+    <div class="benefits__cards-text">
       <p>
         В современном мире наружной рекламы существует множество различных
         технологий и материалов, их грамотное сочетание позволяет нашим
@@ -144,33 +169,33 @@
       </p>
     </div>
   </div>
-  <div class="benefits_cards">
-    <div class="benefits_cards_title">
+  <div class="benefits__cards">
+    <div class="benefits__cards-title-container">
       <img
-        class="benefits_cards_icon"
+        class="benefits__cards-icon"
         src="assets/img/icons/quality.png"
         alt="иконка качество"
       />
-      <h2>Качественно</h2>
+      <h2 class="benefits__cards-title">Качественно</h2>
     </div>
-    <div class="benefits_cards_text">
+    <div class="benefits__cards-text">
       <p>
         Современное оборудование и разнообразие материалов в руках наших
         специалистов позволяет обеспечить безупречное качество исполнения.
       </p>
     </div>
   </div>
-  <div class="benefits_cards">
-    <div class="benefits_cards_title">
+  <div class="benefits__cards">
+    <div class="benefits__cards-title-container">
       <img
-        class="benefits_cards_icon"
+        class="benefits__cards-icon"
         src="assets/img/icons/fast.png"
         alt="иконка оперативно"
       />
 
-      <h2>Оперативно</h2>
+      <h2 class="benefits__cards-title">Оперативно</h2>
     </div>
-    <div class="benefits_cards_text">
+    <div class="benefits__cards-text">
       <p>
         Выполняем заказы максимально быстро при неизменно высоком качестве.
         Изготовление заказа - от одного часа.
@@ -178,97 +203,137 @@
     </div>
   </div>
 </div>
- <div class="container__flex__center">
-  <h1>Услуги</h1>
+ <div class="container__flex_center">
+  <h1 class="main-title">Услуги</h1>
   <div class="services">
     
-    <div class="services_container">
-      <a href="/outsidead/index.html">
-        <img src="/assets/img/icons/outside_ad.png" alt="иконка светбокса" />
-        <h3>Наружная
+    <div class="services__container">
+      <a class="services__container-link" href="/outsidead/index.html">
+        <img
+          class="services__container-img"
+          src="/assets/img/icons/outside_ad.png"
+          alt="иконка светбокса"
+        />
+        <h3 class="services__container-header">Наружная
 реклама</h3>
       </a>
     </div>
     
-    <div class="services_container">
-      <a href="/polygraphy/index.html">
-        <img src="/assets/img/icons/polygraphy.png" alt="иконка печати" />
-        <h3>Полиграфия</h3>
+    <div class="services__container">
+      <a class="services__container-link" href="/polygraphy/index.html">
+        <img
+          class="services__container-img"
+          src="/assets/img/icons/polygraphy.png"
+          alt="иконка печати"
+        />
+        <h3 class="services__container-header">Полиграфия</h3>
       </a>
     </div>
     
-    <div class="services_container">
-      <a href="/adplacement/index.html">
-        <img src="/assets/img/icons/placement.png" alt="иконка баннера" />
-        <h3>Размещение
+    <div class="services__container">
+      <a class="services__container-link" href="/adplacement/index.html">
+        <img
+          class="services__container-img"
+          src="/assets/img/icons/placement.png"
+          alt="иконка баннера"
+        />
+        <h3 class="services__container-header">Размещение
 рекламы</h3>
       </a>
     </div>
     
-    <div class="services_container">
-      <a href="/portfolio_lists/portfolio_list3/">
-        <img src="/assets/img/icons/design.png" alt="иконка планшета" />
-        <h3>Дизайн</h3>
+    <div class="services__container">
+      <a class="services__container-link" href="/portfolio_lists/portfolio_list3/">
+        <img
+          class="services__container-img"
+          src="/assets/img/icons/design.png"
+          alt="иконка планшета"
+        />
+        <h3 class="services__container-header">Дизайн</h3>
       </a>
     </div>
     
-    <div class="services_container">
-      <a href="/stanok/index.html">
-        <img src="/assets/img/icons/stanok.png" alt="иконка станка" />
-        <h3>Фрезерная
+    <div class="services__container">
+      <a class="services__container-link" href="/stanok/index.html">
+        <img
+          class="services__container-img"
+          src="/assets/img/icons/stanok.png"
+          alt="иконка станка"
+        />
+        <h3 class="services__container-header">Фрезерная
 резка с ЧПУ</h3>
       </a>
     </div>
     
-    <div class="services_container">
-      <a href="/led/index.html">
-        <img src="/assets/img/icons/led.png" alt="иконка LED" />
-        <h3>Бегущие строки и LED экраны</h3>
+    <div class="services__container">
+      <a class="services__container-link" href="/led/index.html">
+        <img
+          class="services__container-img"
+          src="/assets/img/icons/led.png"
+          alt="иконка LED"
+        />
+        <h3 class="services__container-header">Бегущие строки и LED экраны</h3>
       </a>
     </div>
     
-    <div class="services_container">
-      <a href="/fasade/index.html">
-        <img src="/assets/img/icons/fasade.png" alt="иконка отделки" />
-        <h3>Отделка фасадов и входных групп</h3>
+    <div class="services__container">
+      <a class="services__container-link" href="/fasade/index.html">
+        <img
+          class="services__container-img"
+          src="/assets/img/icons/fasade.png"
+          alt="иконка отделки"
+        />
+        <h3 class="services__container-header">Отделка фасадов и входных групп</h3>
       </a>
     </div>
     
-    <div class="services_container">
-      <a href="/wideformat/index.html">
-        <img src="/assets/img/icons/wideFormat.png" alt="широкий формат" />
-        <h3>Широкоформатная
+    <div class="services__container">
+      <a class="services__container-link" href="/wideformat/index.html">
+        <img
+          class="services__container-img"
+          src="/assets/img/icons/wideFormat.png"
+          alt="широкий формат"
+        />
+        <h3 class="services__container-header">Широкоформатная
 печать</h3>
       </a>
     </div>
     
-    <div class="services_container">
-      <a href="/fluidacryl/index.html">
-        <img src="/assets/img/icons/acrylicon.svg" alt="иконка Жидкого Акрила" />
-        <h3>Жидкий Акрил</h3>
+    <div class="services__container">
+      <a class="services__container-link" href="/fluidacryl/index.html">
+        <img
+          class="services__container-img"
+          src="/assets/img/icons/acrylicon.svg"
+          alt="иконка Жидкого Акрила"
+        />
+        <h3 class="services__container-header">Жидкий Акрил</h3>
       </a>
     </div>
     
-    <div class="services_container">
-      <a href="/neon/index.html">
-        <img src="/assets/img/icons/neonicon.svg" alt="иконка гибкого неона" />
-        <h3>Гибкий Неон</h3>
+    <div class="services__container">
+      <a class="services__container-link" href="/neon/index.html">
+        <img
+          class="services__container-img"
+          src="/assets/img/icons/neonicon.svg"
+          alt="иконка гибкого неона"
+        />
+        <h3 class="services__container-header">Гибкий Неон</h3>
       </a>
     </div>
     
   </div>
 </div>
  <div class="twosided">
-  <div class="about">
-    <h1>О компании</h1>
+  <div class="twosided__about">
+    <h1 class="twosided__about-header">О компании</h1>
     <p>
       Основные направления — наружная реклама, графический дизайн, городской
       дизайн, изготовление, печатная продукция и оперативная полиграфия.
     </p>
     <p>Мы работаем для вас с 2004 года!</p>
   </div>
-  <div class="sale">
-    <h1>Действующие акции</h1>
+  <div class="twosided__sale">
+    <h1 class="twosided__sale-header">Действующие акции</h1>
     <p>
       Реклама на 5-ти мультимедийных экранах в торговых центрах и на 10-ти
       экранах в автобусах -
@@ -279,16 +344,16 @@
 </div>
 
  <footer>
-  <div class="headerLine"></div>
-  <div class="realFooter">
-    <div>
+  <div class="header__nav-line"></div>
+  <div class="footer">
+    <div class="footer__container">
       <p>
         © ArtRekTime, 2004 <br />
 
         Рекламное агентство
       </p>
     </div>
-    <div>
+    <div class="footer__container">
       <a href="/index.html">На главную</a>
       <a href="/services/index.html">Услуги и цены</a>
       <a href="/portfolio/index.html">Портфолио</a>
@@ -297,7 +362,7 @@
       <a href="/aboutus/index.html">О нас</a>
       <a href="/contacts/index.html">Контакты</a>
     </div>
-    <div>
+    <div class="footer__container">
       <p>
         8 923 499 59 59 <br />
 
@@ -311,7 +376,7 @@
       </p>
       <a href="/contacts/index.html">Схема проезда</a>
     </div>
-    <div>
+    <div class="footer__container">
       <p>
         Разработка сайта: <br />
 
