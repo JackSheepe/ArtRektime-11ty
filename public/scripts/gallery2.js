@@ -1,5 +1,5 @@
 let paginationGalleryItems8 = document.querySelector(
-  ".portfolio_works__grid8"
+  ".portfolio-works__grid8"
 ).children;
 console.log(paginationGalleryItems8);
 const paginationPrev8 = document.querySelector(".pagination-prev8");

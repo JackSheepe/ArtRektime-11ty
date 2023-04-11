@@ -878,19 +878,19 @@ table.darkTable tfoot td {
   width: 20px;
 }
 
-.portfolio_works_container {
+.portfolio-works {
   max-width: 1080px;
   align-self: center;
 }
 
-.portfolio_works__grid,
-.portfolio_works__grid2__1row,
-.portfolio_works__grid3,
-.portfolio_works__grid4,
-.portfolio_works__grid5__1row,
-.portfolio_works__grid6__1row,
-.portfolio_works__grid7__1row,
-.portfolio_works__grid8 {
+.portfolio-works__grid,
+.portfolio-works__grid2_1row,
+.portfolio-works__grid3,
+.portfolio-works__grid4,
+.portfolio-works__grid5_1row,
+.portfolio-works__grid6_1row,
+.portfolio-works__grid7_1row,
+.portfolio-works__grid8 {
   display: grid;
   grid-template-columns: 200px 200px 200px 200px 200px;
   grid-auto-rows: 200px;
@@ -903,25 +903,25 @@ table.darkTable tfoot td {
   position: relative;
 }
 
-.portfolio_works__grid2__1row,
-.portfolio_works__grid5__1row,
-.portfolio_works__grid6__1row,
-.portfolio_works__grid7__1row {
+.portfolio-works__grid2_1row,
+.portfolio-works__grid5_1row,
+.portfolio-works__grid6_1row,
+.portfolio-works__grid7_1row {
   grid-template-rows: 350px;
 }
 
-.portfolio_works_imgcontainer {
+.portfolio-works__img-container {
   display: flex;
   justify-content: center;
   overflow: hidden;
   height: 100%;
 }
 
-.portfolio_works__grid img {
+.portfolio-works__img {
   object-fit: cover;
 }
 
-.portfolio_works__grid-description {
+.portfolio-works__description {
   display: grid;
   max-width: 1080px;
   min-height: 50px;
@@ -930,11 +930,25 @@ table.darkTable tfoot td {
   padding-top: 10px;
 }
 
-.portfolio_works__grid-description-title {
+.portfolio-works__grid-description-title,
+.portfolio-works__grid2_1row-description-title,
+.portfolio-works__grid3-description-title,
+.portfolio-works__grid4-description-title,
+.portfolio-works__grid5_1row-description-title,
+.portfolio-works__grid6_1row-description-title,
+.portfolio-works__grid7_1row-description-title,
+.portfolio-works__grid8-description-title {
   text-transform: uppercase;
 }
 
-.portfolio_works__grid-description-sub {
+.portfolio-works__grid-description-sub,
+.portfolio-works__grid2_1row-description-sub,
+.portfolio-works__grid3-description-sub,
+.portfolio-works__grid4-description-sub,
+.portfolio-works__grid5_1row-description-sub,
+.portfolio-works__grid6_1row-description-sub,
+.portfolio-works__grid7_1row-description-sub,
+.portfolio-works__grid8-description-sub {
   font-size: 14px;
 }
 
@@ -1008,7 +1022,7 @@ table.darkTable tfoot td {
   color: white;
 }
 
-.portfolio_works_wrapper.show {
+.portfolio-works__wrapper.show {
   display: block;
   animation: show 0.5s ease;
 }
@@ -1024,7 +1038,7 @@ table.darkTable tfoot td {
   }
 }
 
-.portfolio_works_wrapper.hide {
+.portfolio-works__wrapper.hide {
   display: none;
 }
 

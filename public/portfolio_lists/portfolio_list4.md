@@ -7,7 +7,7 @@ portfolioListLitle: Размещение рекламы
 links:
 ---
 
-<h1>Рекламные ролики в автобусах</h1>
+<h1 class="main-title">Рекламные ролики в автобусах</h1>
 
 <div class="video__flex">
 

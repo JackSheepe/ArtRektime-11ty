@@ -1,5 +1,5 @@
 let paginationGalleryItems5 = document.querySelector(
-  ".portfolio_works__grid5__1row"
+  ".portfolio-works__grid5_1row"
 ).children;
 console.log(paginationGalleryItems5);
 const paginationPrev5 = document.querySelector(".pagination-prev5");

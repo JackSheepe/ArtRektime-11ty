@@ -13,25 +13,25 @@ portfolioListLitle: Наружная реклама
 links:
 ---
 
-<h1 id="1">Вывески</h1>
+<h1 class="main-title" id="1">Вывески</h1>
 
-<div class="portfolio_works_container">
-<div class="portfolio_works__grid" id="portfolio-works-grid">
+<div class="portfolio-works">
+<div class="portfolio-works__grid" id="portfolio-works-grid">
 {% for viveska in collections.viveska %}
 <div
-class="portfolio_works_wrapper"
+class="portfolio-works__wrapper"
 data-name="{{ viveska.data.name }}"
 data-description="{{ viveska.data.description }}"
 >
-<div class="portfolio_works_imgcontainer">
-<img src="{{ viveska.data.img }}" alt="{{ viveska.data.alt }}" loading="lazy"/>
+<div class="portfolio-works__img-container">
+<img src="{{ viveska.data.img }}" alt="{{ viveska.data.alt }}" loading="lazy" class="portfolio-works__img"/>
 </div>
 </div>
 {% endfor %}
 </div>
-<div class="portfolio_works__grid-description">
-<p class="portfolio_works__grid-description-title"></p>
-<p class="portfolio_works__grid-description-sub"></p>
+<div class="portfolio-works__description">
+<p class="portfolio-works__grid-description-title"></p>
+<p class="portfolio-works__grid-description-sub"></p>
 </div>
 </div>
 <div class="pagination">
@@ -42,24 +42,24 @@ data-description="{{ viveska.data.description }}"
 <a href="#1" class="pagination-next">Вперёд</a>
 </div>
 
-<h1 id="2">Лайтбоксы</h1>
-<div class="portfolio_works_container">
-<div class="portfolio_works__grid2__1row" id="portfolio-works-grid2-1row">
+<h1 class="main-title" id="2">Лайтбоксы</h1>
+<div class="portfolio-works">
+<div class="portfolio-works__grid2_1row" id="portfolio-works-grid2-1row">
 {% for lightbox in collections.lightbox %}
 <div
-class="portfolio_works_wrapper"
+class="portfolio-works__wrapper"
 data-name="{{ lightbox.data.name }}"
 data-description="{{ lightbox.data.description }}"
 >
-<div class="portfolio_works_imgcontainer">
-<img src="{{ lightbox.data.img }}" alt="{{ lightbox.data.alt }}" loading="lazy"/>
+<div class="portfolio-works__img-container">
+<img src="{{ lightbox.data.img }}" alt="{{ lightbox.data.alt }}" loading="lazy" class="portfolio-works__img"/>
 </div>
 </div>
 {% endfor %}
 </div>
-<div class="portfolio_works__grid-description">
-<p class="portfolio_works__grid2__1row-description-title"></p>
-<p class="portfolio_works__grid2__1row-description-sub"></p>
+<div class="portfolio-works__description">
+<p class="portfolio-works__grid2_1row-description-title"></p>
+<p class="portfolio-works__grid2_1row-description-sub"></p>
 </div>
 </div>
 <div class="pagination">
@@ -70,25 +70,25 @@ data-description="{{ lightbox.data.description }}"
 <a href="#2" class="pagination-next2">Вперёд</a>
 </div>
 
-<h1 id="3">Таблички</h1>
+<h1 class="main-title" id="3">Таблички</h1>
 
-<div class="portfolio_works_container">
-<div class="portfolio_works__grid3" id="portfolio-works-grid3">
+<div class="portfolio-works">
+<div class="portfolio-works__grid3" id="portfolio-works-grid3">
 {% for table in collections.table %}
 <div
-class="portfolio_works_wrapper"
+class="portfolio-works__wrapper"
 data-name="{{ table.data.name }}"
 data-description="{{ table.data.description }}"
 >
-<div class="portfolio_works_imgcontainer">
-<img src="{{ table.data.img }}" alt="{{ table.data.alt }}" loading="lazy"/>
+<div class="portfolio-works__img-container">
+<img src="{{ table.data.img }}" alt="{{ table.data.alt }}" loading="lazy" class="portfolio-works__img"/>
 </div>
 </div>
 {% endfor %}
 </div>
-<div class="portfolio_works__grid-description">
-<p class="portfolio_works__grid3-description-title"></p>
-<p class="portfolio_works__grid3-description-sub"></p>
+<div class="portfolio-works__description">
+<p class="portfolio-works__grid3-description-title"></p>
+<p class="portfolio-works__grid3-description-sub"></p>
 </div>
 </div>
 <div class="pagination">
@@ -99,25 +99,25 @@ data-description="{{ table.data.description }}"
 <a href="#3" class="pagination-next3">Вперёд</a>
 </div>
 
-<h1 id="4">Стенды</h1>
+<h1 class="main-title" id="4">Стенды</h1>
 
-<div class="portfolio_works_container">
-<div class="portfolio_works__grid4" id="portfolio-works-grid4">
+<div class="portfolio-works">
+<div class="portfolio-works__grid4" id="portfolio-works-grid4">
 {% for stand in collections.stand %}
 <div
-class="portfolio_works_wrapper"
+class="portfolio-works__wrapper"
 data-name="{{ stand.data.name }}"
 data-description="{{ stand.data.description }}"
 >
-<div class="portfolio_works_imgcontainer">
-<img src="{{ stand.data.img }}" alt="{{ stand.data.alt }}" loading="lazy"/>
+<div class="portfolio-works__img-container">
+<img src="{{ stand.data.img }}" alt="{{ stand.data.alt }}" loading="lazy" class="portfolio-works__img"/>
 </div>
 </div>
 {% endfor %}
 </div>
-<div class="portfolio_works__grid-description">
-<p class="portfolio_works__grid4-description-title"></p>
-<p class="portfolio_works__grid4-description-sub"></p>
+<div class="portfolio-works__description">
+<p class="portfolio-works__grid4-description-title"></p>
+<p class="portfolio-works__grid4-description-sub"></p>
 </div>
 </div>
 <div class="pagination">
@@ -128,24 +128,24 @@ data-description="{{ stand.data.description }}"
 <a href="#4" class="pagination-next4">Вперёд</a>
 </div>
 
-<h1 id="5">Штендеры и рекламные конструкции</h1>
-<div class="portfolio_works_container">
-<div class="portfolio_works__grid5__1row" id="portfolio-works-grid5">
+<h1 class="main-title" id="5">Штендеры и рекламные конструкции</h1>
+<div class="portfolio-works">
+<div class="portfolio-works__grid5_1row" id="portfolio-works-grid5">
 {% for shtender in collections.shtender %}
 <div
-class="portfolio_works_wrapper"
+class="portfolio-works__wrapper"
 data-name="{{ shtender.data.name }}"
 data-description="{{ shtender.data.description }}"
 >
-<div class="portfolio_works_imgcontainer">
-<img src="{{ shtender.data.img }}" alt="{{ shtender.data.alt }}" loading="lazy"/>
+<div class="portfolio-works__img-container">
+<img src="{{ shtender.data.img }}" alt="{{ shtender.data.alt }}" loading="lazy" class="portfolio-works__img"/>
 </div>
 </div>
 {% endfor %}
 </div>
-<div class="portfolio_works__grid-description">
-<p class="portfolio_works__grid5__1row-description-title"></p>
-<p class="portfolio_works__grid5__1row-description-sub"></p>
+<div class="portfolio-works__description">
+<p class="portfolio-works__grid5_1row-description-title"></p>
+<p class="portfolio-works__grid5_1row-description-sub"></p>
 </div>
 </div>
 <div class="pagination">
@@ -156,24 +156,24 @@ data-description="{{ shtender.data.description }}"
 <a href="#5" class="pagination-next5">Вперёд</a>
 </div>
 
-<h1 id="6">Пожарная безопасность</h1>
-<div class="portfolio_works_container">
-<div class="portfolio_works__grid6__1row" id="portfolio-works-grid6">
+<h1 class="main-title" id="6">Пожарная безопасность</h1>
+<div class="portfolio-works">
+<div class="portfolio-works__grid6_1row" id="portfolio-works-grid6">
 {% for fireSafety in collections.fireSafety %}
 <div
-class="portfolio_works_wrapper"
+class="portfolio-works__wrapper"
 data-name="{{ fireSafety.data.name }}"
 data-description="{{ fireSafety.data.description }}"
 >
-<div class="portfolio_works_imgcontainer">
-<img src="{{ fireSafety.data.img }}" alt="{{ fireSafety.data.alt }}" loading="lazy"/>
+<div class="portfolio-works__img-container">
+<img src="{{ fireSafety.data.img }}" alt="{{ fireSafety.data.alt }}" loading="lazy" class="portfolio-works__img"/>
 </div>
 </div>
 {% endfor %}
 </div>
-<div class="portfolio_works__grid-description">
-<p class="portfolio_works__grid6__1row-description-title"></p>
-<p class="portfolio_works__grid6__1row-description-sub"></p>
+<div class="portfolio-works__description">
+<p class="portfolio-works__grid6_1row-description-title"></p>
+<p class="portfolio-works__grid6_1row-description-sub"></p>
 </div>
 </div>
 <div class="pagination">
@@ -184,24 +184,24 @@ data-description="{{ fireSafety.data.description }}"
 <a href="#6" class="pagination-next6">Вперёд</a>
 </div>
 
-<h1 id="7">Плоттерная резка и наклейки</h1>
-<div class="portfolio_works_container">
-<div class="portfolio_works__grid7__1row" id="portfolio-works-grid7npmтзь">
+<h1 class="main-title" id="7">Плоттерная резка и наклейки</h1>
+<div class="portfolio-works">
+<div class="portfolio-works__grid7_1row" id="portfolio-works-grid7">
 {% for plotter in collections.plotter %}
 <div
-class="portfolio_works_wrapper"
+class="portfolio-works__wrapper"
 data-name="{{ plotter.data.name }}"
 data-description="{{ plotter.data.description }}"
 >
-<div class="portfolio_works_imgcontainer">
-<img src="{{ plotter.data.img }}" alt="{{ plotter.data.alt }}" loading="lazy"/>
+<div class="portfolio-works__img-container">
+<img src="{{ plotter.data.img }}" alt="{{ plotter.data.alt }}" loading="lazy" class="portfolio-works__img"/>
 </div>
 </div>
 {% endfor %}
 </div>
-<div class="portfolio_works__grid-description">
-<p class="portfolio_works__grid7__1row-description-title"></p>
-<p class="portfolio_works__grid7__1row-description-sub"></p>
+<div class="portfolio-works__description">
+<p class="portfolio-works__grid7_1row-description-title"></p>
+<p class="portfolio-works__grid7_1row-description-sub"></p>
 </div>
 </div>
 <div class="pagination">

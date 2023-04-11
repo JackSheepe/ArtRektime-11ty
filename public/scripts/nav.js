@@ -8,7 +8,7 @@ function myFunction() {
   }
 }
 
-let loc = document.getElementsByClassName("portfolio_works_wrapper");
+let loc = document.getElementsByClassName("portfolio-works__wrapper");
 
 for (var i = 0; i < loc.length; i++) {
   loc[i].addEventListener("mouseover", locOver);
@@ -36,7 +36,9 @@ function locOut() {
 
 // open image
 
-let galleryImages = document.querySelectorAll(".portfolio_works_imgcontainer");
+let galleryImages = document.querySelectorAll(
+  ".portfolio-works__img-container"
+);
 let getLatesOpenedImg;
 let windowWidth = window.innerWidth;
 
@@ -44,7 +46,7 @@ if (galleryImages) {
   galleryImages.forEach(function (image, index) {
     image.onclick = function () {
       let getImage = document.querySelectorAll(
-        ".portfolio_works_imgcontainer img"
+        ".portfolio-works__img-container img"
       )[index].src;
       console.log(getImage);
       let getImgSrcPos = getImage.split("/assets/img/pic/");
@@ -135,17 +137,17 @@ function changeImg(changeDir) {
 
   newImg.setAttribute(
     "src",
-    document.querySelectorAll(".portfolio_works_imgcontainer img")[calcNewImg]
+    document.querySelectorAll(".portfolio-works__img-container img")[calcNewImg]
       .src
   );
   newImg.setAttribute("id", "current-img");
 
-  gettextname.innerHTML = document.querySelectorAll(".portfolio_works_wrapper")[
-    calcNewImg
-  ].dataset.name;
+  gettextname.innerHTML = document.querySelectorAll(
+    ".portfolio-works__wrapper"
+  )[calcNewImg].dataset.name;
 
   gettextdescription.innerHTML = document.querySelectorAll(
-    ".portfolio_works_wrapper"
+    ".portfolio-works__wrapper"
   )[calcNewImg].dataset.description;
 
   console.log(newImg.dataset.name);

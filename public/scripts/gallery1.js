@@ -1,7 +1,7 @@
 // pagination
 
 let paginationGalleryItems = document.querySelector(
-  ".portfolio_works__grid"
+  ".portfolio-works__grid"
 ).children;
 console.log(paginationGalleryItems);
 const paginationPrev = document.querySelector(".pagination-prev");
@@ -57,7 +57,7 @@ function showItems() {
 }
 
 let paginationGalleryItems2 = document.querySelector(
-  ".portfolio_works__grid2__1row"
+  ".portfolio-works__grid2_1row"
 ).children;
 console.log(paginationGalleryItems2);
 const paginationPrev2 = document.querySelector(".pagination-prev2");
@@ -115,7 +115,7 @@ function showItems2() {
 }
 
 let paginationGalleryItems3 = document.querySelector(
-  ".portfolio_works__grid3"
+  ".portfolio-works__grid3"
 ).children;
 console.log(paginationGalleryItems3);
 const paginationPrev3 = document.querySelector(".pagination-prev3");
@@ -173,7 +173,7 @@ function showItems3() {
 }
 
 let paginationGalleryItems4 = document.querySelector(
-  ".portfolio_works__grid4"
+  ".portfolio-works__grid4"
 ).children;
 console.log(paginationGalleryItems4);
 const paginationPrev4 = document.querySelector(".pagination-prev4");
@@ -231,7 +231,7 @@ function showItems4() {
 }
 
 let paginationGalleryItems5 = document.querySelector(
-  ".portfolio_works__grid5__1row"
+  ".portfolio-works__grid5_1row"
 ).children;
 console.log(paginationGalleryItems5);
 const paginationPrev5 = document.querySelector(".pagination-prev5");
@@ -289,7 +289,7 @@ function showItems5() {
 }
 
 let paginationGalleryItems6 = document.querySelector(
-  ".portfolio_works__grid6__1row"
+  ".portfolio-works__grid6_1row"
 ).children;
 console.log(paginationGalleryItems6);
 const paginationPrev6 = document.querySelector(".pagination-prev6");
@@ -347,7 +347,7 @@ function showItems6() {
 }
 
 let paginationGalleryItems7 = document.querySelector(
-  ".portfolio_works__grid7__1row"
+  ".portfolio-works__grid7_1row"
 ).children;
 console.log(paginationGalleryItems6);
 const paginationPrev7 = document.querySelector(".pagination-prev7");

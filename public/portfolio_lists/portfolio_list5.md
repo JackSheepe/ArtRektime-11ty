@@ -7,26 +7,26 @@ portfolioListLitle: Фрезерная резка с ЧПУ
 links:
 ---
 
-<h1 id="1">Фрезерно-гравировальные услуги
+<h1 class="main-title" id="1">Фрезерно-гравировальные услуги
 </h1>
 
-<div class="portfolio_works_container">
-<div class="portfolio_works__grid4">
+<div class="portfolio-works">
+<div class="portfolio-works__grid4">
 {% for frezer in collections.frezer %}
 <div
-class="portfolio_works_wrapper"
+class="portfolio-works__wrapper"
 data-name="{{ frezer.data.name }}"
 data-description="{{ frezer.data.description }}"
 >
-<div class="portfolio_works_imgcontainer">
-<img src="{{ frezer.data.img }}" alt="{{ frezer.data.alt }}" />
+<div class="portfolio-works__img-container">
+<img src="{{ frezer.data.img }}" alt="{{ frezer.data.alt }}" class="portfolio-works__img"/>
 </div>
 </div>
 {% endfor %}
 </div>
-<div class="portfolio_works__grid-description">
-<p class="portfolio_works__grid4-description-title"></p>
-<p class="portfolio_works__grid4-description-sub"></p>
+<div class="portfolio-works__description">
+<p class="portfolio-works__grid4-description-title"></p>
+<p class="portfolio-works__grid4-description-sub"></p>
 </div>
 </div>
 <div class="pagination">

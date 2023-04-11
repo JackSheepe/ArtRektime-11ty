@@ -7,25 +7,25 @@ portfolioListLitle: Бегущие строки и LED экраны
 links:
 ---
 
-<h1 id="1">Экраны RGB
+<h1 class="main-title" id="1">Экраны RGB
 </h1>
-<div class="portfolio_works_container">
-<div class="portfolio_works__grid5__1row">
+<div class="portfolio-works">
+<div class="portfolio-works__grid5_1row">
 {% for rgbscreen in collections.rgbscreen %}
 <div
-class="portfolio_works_wrapper"
+class="portfolio-works__wrapper"
 data-name="{{ rgbscreen.data.name }}"
 data-description="{{ rgbscreen.data.description }}"
 >
-<div class="portfolio_works_imgcontainer">
-<img src="{{ rgbscreen.data.img }}" alt="{{ rgbscreen.data.alt }}" />
+<div class="portfolio-works__img-container">
+<img src="{{ rgbscreen.data.img }}" alt="{{ rgbscreen.data.alt }}" class="portfolio-works__img"/>
 </div>
 </div>
 {% endfor %}
 </div>
-<div class="portfolio_works__grid-description">
-<p class="portfolio_works__grid5__1row-description-title"></p>
-<p class="portfolio_works__grid5__1row-description-sub"></p>
+<div class="portfolio-works__description">
+<p class="portfolio-works__grid5_1row-description-title"></p>
+<p class="portfolio-works__grid5_1row-description-sub"></p>
 </div>
 </div>
 <div class="pagination">

@@ -18,25 +18,25 @@ portfolioListLitle: Полиграфия
 links:
 ---
 
-<h1 id="1">Визитки</h1>
+<h1 class="main-title" id="1">Визитки</h1>
 
-<div class="portfolio_works_container">
-<div class="portfolio_works__grid8">
+<div class="portfolio-works">
+<div class="portfolio-works__grid8">
 {% for visitka in collections.visitka %}
 <div
-class="portfolio_works_wrapper"
+class="portfolio-works__wrapper"
 data-name="{{ visitka.data.name }}"
 data-description="{{ visitka.data.description }}"
 >
-<div class="portfolio_works_imgcontainer">
-<img src="{{ visitka.data.img }}" alt="{{ visitka.data.alt }}" />
+<div class="portfolio-works__img-container">
+<img src="{{ visitka.data.img }}" alt="{{ visitka.data.alt }}" class="portfolio-works__img"/>
 </div>
 </div>
 {% endfor %}
 </div>
-<div class="portfolio_works__grid-description">
-<p class="portfolio_works__grid8-description-title"></p>
-<p class="portfolio_works__grid8-description-sub"></p>
+<div class="portfolio-works__description">
+<p class="portfolio-works__grid8-description-title"></p>
+<p class="portfolio-works__grid8-description-sub"></p>
 </div>
 </div>
 <div class="pagination">

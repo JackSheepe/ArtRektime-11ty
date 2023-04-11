@@ -13,8 +13,8 @@ links:
 
 <article  class="container__flex__center">
 <div class="greyBackground greyBackground__H1separatelineP">
-	<h1>Визитки</h1>
-	<div class="columnsWimageNlinks_linebox">
+	<h1 class="main-title ">Визитки</h1>
+	<div class="columnsWimageNlinks__linebox">
 		<div class="portfolio_separateLine"></div>
 	</div>
 	<p>Традиционный носитель контактной информации о человеке или организации. Визитка включает имя владельца, компанию (обычно с логотипом) и контактную информацию (адрес, телефонный номер и/или адрес электронной почты).</p>
