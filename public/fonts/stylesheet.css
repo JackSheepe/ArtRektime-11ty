@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "DIN Next";
+  src: url("DINNextW1G-Heavy.otf");
+  src: local("DINNextW1G-Heavy"), url("DINNextW1G-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DIN Next";
+  src: url("DINNextW1G-HeavyItalic.otf");
+  src: local("DINNextW1G-HeavyItalic"),
+    url("DINNextW1G-HeavyItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "DIN Next";
+  src: url("DINNextW1G-Black.otf");
+  src: local("DINNextW1G-Black"), url("DINNextW1G-Black.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DIN Next";
+  src: url("DINNextW1G-BlackItalic.otf");
+  src: local("DINNextW1G-BlackItalic"),
+    url("DINNextW1G-BlackItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "DIN Next";
+  src: url("DINNextW1G-Bold.otf");
+  src: local("DINNextW1G-Bold"), url("DINNextW1G-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DIN Next";
+  src: url("DINNextW1G-BoldItalic.otf");
+  src: local("DINNextW1G-BoldItalic"),
+    url("DINNextW1G-BoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "DIN Next";
+  src: url("DINNextW1G-Medium.otf");
+  src: local("DINNextW1G-Medium"), url("DINNextW1G-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DIN Next";
+  src: url("DINNextW1G-MediumItalic.otf");
+  src: local("DINNextW1G-MediumItalic"),
+    url("DINNextW1G-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "DIN Next";
+  src: url("DINNextW1G-Regular.otf");
+  src: local("DINNextW1G-Regular"),
+    url("DINNextW1G-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DIN Next";
+  src: url("DINNextW1G-Italic.otf");
+  src: local("DINNextW1G-Italic"), url("DINNextW1G-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "DIN Next";
+  src: url("DINNextW1G-Light.otf");
+  src: local("DINNextW1G-Light"), url("DINNextW1G-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DIN Next";
+  src: url("DINNextW1G-LightItalic.otf");
+  src: local("DINNextW1G-LightItalic"),
+    url("DINNextW1G-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "DIN Next";
+  src: url("DINNextW1G-UltraLight.otf");
+  src: local("DINNextW1G-UltraLight"),
+    url("DINNextW1G-UltraLight.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DIN Next";
+  src: url("DINNextW1G-UltraLightIt.otf");
+  src: local("DINNextW1G-UltraLightIt"),
+    url("DINNextW1G-UltraLightIt.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+}
