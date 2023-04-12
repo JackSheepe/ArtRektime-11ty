@@ -131,6 +131,7 @@ header {
 }
 
 .header__nav-link {
+  font-weight: 300;
   text-decoration: none;
   color: white;
   transition-duration: 200ms;
