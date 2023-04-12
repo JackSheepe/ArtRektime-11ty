@@ -2060,19 +2060,19 @@ table.darkTable tfoot td {
   .fasade_gallery__flex {
     padding: 10px 10px;
   }
-  .portfolio_works_container {
+  .portfolio-works {
     margin-bottom: 15px;
   }
 
-  .portfolio_works__grid-description {
+  .portfolio-works__description {
     min-height: 0px;
     grid-template-rows: minmax(0px, min-content) minmax(0px, min-content);
     padding-top: 0px;
   }
 
-  .portfolio_works__grid,
-  .portfolio_works__grid3,
-  .portfolio_works__grid4 {
+  .portfolio-works__grid,
+  .portfolio-works__grid3,
+  .portfolio-works__grid4 {
     display: grid;
     grid-template-columns: 180px 180px;
     grid-auto-rows: 200px;
@@ -2087,16 +2087,16 @@ table.darkTable tfoot td {
       ". .";
     position: relative;
   }
-  .portfolio_works__grid2__1row,
-  .portfolio_works__grid5__1row,
-  .portfolio_works__grid6__1row,
-  .portfolio_works__grid7__1row {
+  .portfolio-works__grid2_1row,
+  .portfolio-works__grid5_1row,
+  .portfolio-works__grid6_1row,
+  .portfolio-works__grid7_1row {
     grid-template-columns: 180px 180px;
     grid-template-rows: 200px;
     grid-auto-rows: 200px;
     gap: 5px 5px;
   }
-  .portfolio_works_imgcontainer {
+  .portfolio-works__img-container {
     max-width: 100%;
     height: 200px;
   }
