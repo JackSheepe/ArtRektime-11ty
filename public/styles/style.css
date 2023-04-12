@@ -1905,7 +1905,9 @@ table.darkTable tfoot td {
     float: right;
     display: block;
     margin-left: auto;
+    align-self: center;
   }
+
   .header__nav.responsive {
     position: relative;
     justify-content: left;
@@ -1913,8 +1915,8 @@ table.darkTable tfoot td {
   }
   .header__nav.responsive .header__nav-icon {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 10px;
+    top: 10px;
   }
   .header__nav.responsive .header__nav-link {
     float: none;
