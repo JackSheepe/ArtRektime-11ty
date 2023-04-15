@@ -21,7 +21,9 @@ description: "Список производимой нами наружной р
     <div class="columnsWimageNlinks__links-container">
       <p class="columnsWimageNlinks__links">
         {% for вид in outsideAd.data.list %}
-        <a class="columnsWimageNlinks__links-link" href="{{ outsideAd.url }}"
+        <a
+          class="columnsWimageNlinks__links-link"
+          href="{{ outsideAd.url }}#{{loop.index}}"
           >{{ вид }}</a
         >
         {% endfor %} {{ outsideAd.data.text }}

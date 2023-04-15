@@ -48,16 +48,23 @@ footer a:hover {
 
 .greyBackground_H1separatelineP {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-left: 8%;
 }
 
-.greyBackground__H1separatelineP p {
+.greyBackground_H1separatelineP p {
   max-width: 700px;
   margin: 0 20px;
+  font-weight: 300;
+}
+
+.greyBackground_H1separatelineP h1 {
+  max-width: min-content;
+  font-weight: 300;
+  font-size: 36px;
+  color: #000;
 }
 
 .text-article p,
@@ -76,7 +83,7 @@ footer a:hover {
 
 .big-title {
   font-size: 32px;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 20px;
 }
 
@@ -675,6 +682,7 @@ header {
 }
 
 .columnsWimageNlinks__links-container p {
+  font-weight: 300;
   padding: 0;
 }
 
@@ -760,45 +768,51 @@ header {
   object-fit: contain;
 }
 
-.outsideAd_post {
+.outsideAd-post {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: max-content 1fr;
   grid-template-areas:
     "a b"
     "c b";
   gap: 20px;
-  max-width: 850px;
+  max-width: 925px;
   margin: 50px 0;
 }
 
-.outsideAd_post img {
+.outsideAd-post__img {
   object-fit: contain;
   max-width: 100%;
   justify-self: right;
 }
 
-.outsideAd_post_text {
+.outsideAd-post__text-container {
   grid-area: b;
+  font-weight: 300;
 }
 
-.outsideAd_post_text h1 {
+.outsideAd-post__heading {
   grid-area: b;
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-top: 0;
+  font-weight: 400;
+  color: #000;
+  font-size: 20px;
 }
 
-.outsideAd_post_text p {
+.outsideAd-post__text {
   grid-area: b;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
 }
 
-.outsideAd_post_text h4 {
-  margin-top: 20px;
+.outsideAd-post__sub-heading {
+  margin-top: 15px;
+  font-weight: 300;
 }
 
-.outsideAd_post_text a {
+.outsideAd-post__link {
   color: rgb(255, 0, 102);
 }
 
@@ -808,6 +822,11 @@ header {
   justify-content: center;
 }
 
+.tableContainer__description {
+  width: 925px;
+  margin: 20px 0;
+}
+
 table.darkTable {
   font-family: "Arial Black", Gadget, sans-serif;
   border: 2px solid #000000;
@@ -815,11 +834,11 @@ table.darkTable {
   height: auto;
   text-align: left;
   border-collapse: collapse;
-  max-width: 850px;
+  max-width: 925px;
 }
 table.darkTable td,
 table.darkTable th {
-  border: 0px solid #4a4a4a;
+  border: 1px solid #4a4a4a;
   padding: 10px 5px;
 }
 table.darkTable tbody td {
@@ -2243,6 +2262,10 @@ table.darkTable tfoot td {
   }
   .neon-benefits__cell h2 {
     padding: 0;
+  }
+  .tableContainer__description {
+    max-width: 95%;
+    margin: 15px 0;
   }
 }
 
