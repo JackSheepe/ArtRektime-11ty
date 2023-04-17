@@ -68,6 +68,7 @@ footer a:hover {
 }
 
 .text-article p,
+.text-article h2,
 .text-article h3,
 .text-article h4,
 .text-article ul,
@@ -79,12 +80,18 @@ footer a:hover {
 .text-article p,
 .text-article ul {
   color: rgb(105, 105, 105);
+  font-weight: 300;
 }
 
 .big-title {
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 20px;
+}
+
+.text-article h2 {
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .text-article h3,
@@ -116,6 +123,10 @@ footer a:hover {
 
 .important-text {
   color: rgb(255, 0, 102);
+}
+
+.black {
+  color: #000;
 }
 
 header {
@@ -744,26 +755,27 @@ header {
   width: auto;
 }
 
-.stanok_flex {
-  display: flex;
+.stanok {
+  display: grid;
+  grid-template-columns: 1fr max-content max-content;
   padding: 10px 25%;
   gap: 10px;
 }
 
-.stanok_flex div h3,
-.stanok_flex div p,
-.stanok_flex div ul,
-.stanok_flex div li {
+.stanok div h3,
+.stanok div p,
+.stanok div ul,
+.stanok div li {
   font-weight: 300;
   padding: 0;
   max-width: 350px;
 }
 
-.stanok_flex div h3 {
+.stanok div h3 {
   font-weight: 600;
 }
 
-.stanok_flex img {
+.stanok img {
   max-width: 356px;
   object-fit: contain;
 }
@@ -1905,6 +1917,30 @@ table.darkTable tfoot td {
 .neon_post_wide__text {
   font-size: 20px;
   font-weight: 600;
+}
+
+.billboard-list {
+  font-weight: 400;
+}
+
+.billboard-list a {
+  font-weight: 100;
+}
+
+.billboard-list a:hover {
+  font-weight: 300;
+}
+
+.ad-placement__text p,
+.ad-placement__text li {
+  color: #000;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.video-at-bus {
+  grid-template-columns: max-content 2fr;
+  gap: 30px;
 }
 
 @media (max-width: 768px) {
