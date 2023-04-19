@@ -1,0 +1,13 @@
+.led {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 10px 25%;
+}
+
+@media (max-width: 768px) {
+  .led {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+  }
+}

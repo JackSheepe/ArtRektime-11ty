@@ -1,0 +1,11 @@
+.billboard-list {
+  font-weight: 400;
+}
+
+.billboard-list a {
+  font-weight: 100;
+}
+
+.billboard-list a:hover {
+  font-weight: 300;
+}

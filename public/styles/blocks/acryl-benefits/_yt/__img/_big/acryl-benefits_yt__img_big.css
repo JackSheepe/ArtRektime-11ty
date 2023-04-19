@@ -1,0 +1,9 @@
+.acryl-benefits_yt__img_big {
+  max-width: 120px;
+}
+
+@media (max-width: 1000px) {
+  .acryl-benefits_yt__img_big {
+    max-width: 140px;
+  }
+}

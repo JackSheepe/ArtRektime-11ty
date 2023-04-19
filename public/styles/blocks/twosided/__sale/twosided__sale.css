@@ -1,0 +1,24 @@
+.twosided__sale {
+  text-align: left;
+  background-color: rgb(240, 248, 250);
+  padding: 20px;
+  padding-right: 21%;
+}
+
+.twosided__sale:hover {
+  background-color: rgba(0, 255, 255, 0.3);
+}
+
+@media (min-width: 767px) and (max-width: 1300px) {
+  .twosided__sale {
+    padding-right: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .twosided__sale {
+    text-align: left;
+    font-size: 14px;
+    padding: 20px;
+  }
+}

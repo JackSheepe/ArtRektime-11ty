@@ -1,0 +1,30 @@
+.adPlacement_icon {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.adPlacement_icon div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.adPlacement_icon a {
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.adPlacement_icon img {
+  height: 100%;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .adPlacement_icon {
+    display: block;
+  }
+}

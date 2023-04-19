@@ -1,0 +1,17 @@
+.twosided_paymentAndDelivery__payment {
+  text-align: left;
+  padding: 20px;
+  padding-left: 20px;
+  padding-right: 24%;
+  background-color: rgb(232, 236, 237);
+  color: gray;
+  width: 100%;
+  line-height: 30px;
+}
+
+@media (max-width: 768px) {
+  .twosided_paymentAndDelivery__payment {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}

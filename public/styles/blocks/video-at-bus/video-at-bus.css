@@ -1,0 +1,4 @@
+.video-at-bus {
+  grid-template-columns: max-content 2fr;
+  gap: 30px;
+}

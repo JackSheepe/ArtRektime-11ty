@@ -1,0 +1,12 @@
+.acryl-benefits_yt__text {
+  color: white;
+  font-size: 28px;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .acryl-benefits_yt__text {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}

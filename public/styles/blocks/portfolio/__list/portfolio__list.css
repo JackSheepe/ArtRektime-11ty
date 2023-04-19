@@ -1,0 +1,28 @@
+.portfolio__list {
+  width: 100%;
+  display: inline-grid;
+  gap: 20px;
+  grid-template-columns: 49% 2% 49%;
+  align-items: center;
+}
+
+.portfolio__list a {
+  text-decoration: none;
+}
+
+.portfolio__list,
+.portfolio__list a {
+  color: grey;
+}
+
+.portfolio__list a:hover {
+  color: blueviolet;
+}
+
+@media (max-width: 768px) {
+  .portfolio__list {
+    grid-template-columns: 1fr;
+    background-color: aliceblue;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,17 @@
+.neon-post_wide {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: "a b";
+  gap: 20px;
+  max-width: 928px;
+  margin: 50px;
+}
+
+@media (max-width: 1000px) {
+  .neon_post_wide {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+}

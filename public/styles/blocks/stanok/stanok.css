@@ -1,0 +1,36 @@
+.stanok {
+  display: grid;
+  grid-template-columns: 1fr max-content max-content;
+  padding: 10px 25%;
+  gap: 10px;
+}
+
+.stanok div h3,
+.stanok div p,
+.stanok div ul,
+.stanok div li {
+  font-weight: 300;
+  padding: 0;
+  max-width: 350px;
+}
+
+.stanok div h3 {
+  font-weight: 600;
+}
+
+.stanok img {
+  max-width: 356px;
+  object-fit: contain;
+}
+
+@media (max-width: 1820px) {
+  .stanok_flex {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+	.stanok_flex {
+    padding: 10px 5%;
+  }
+}

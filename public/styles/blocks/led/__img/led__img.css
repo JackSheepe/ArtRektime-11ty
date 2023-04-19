@@ -1,0 +1,4 @@
+.led__img {
+  max-height: fit-content !important;
+  max-height: -moz-fit-content !important;
+}

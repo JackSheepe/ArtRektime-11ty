@@ -1,0 +1,5 @@
+.outsideAd-post__img {
+  object-fit: contain;
+  max-width: 100%;
+  justify-self: right;
+}

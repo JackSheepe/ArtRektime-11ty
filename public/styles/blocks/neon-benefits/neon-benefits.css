@@ -1,0 +1,14 @@
+.neon-benefits {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 928px;
+  margin: 50px 0;
+}
+
+@media (max-width: 1000px) {
+  .neon-benefits {
+    margin: 20px;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,10 @@
+.portfolio-works__grid-description-title,
+.portfolio-works__grid2_1row-description-title,
+.portfolio-works__grid3-description-title,
+.portfolio-works__grid4-description-title,
+.portfolio-works__grid5_1row-description-title,
+.portfolio-works__grid6_1row-description-title,
+.portfolio-works__grid7_1row-description-title,
+.portfolio-works__grid8-description-title {
+  text-transform: uppercase;
+}

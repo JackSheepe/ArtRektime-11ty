@@ -1,0 +1,12 @@
+.twosided_paymentAndDelivery {
+  display: flex;
+  width: 100%;
+  min-height: 600px;
+}
+
+@media (max-width: 768px) {
+  .twosided_paymentAndDelivery {
+    width: 90%;
+    display: block;
+  }
+}

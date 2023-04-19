@@ -1,0 +1,6 @@
+@import url(../styles/blocks/twosided/_paymentAndDelivery/twosided_paymentAndDelivery.css);
+@import url(../styles/blocks/twosided/_paymentAndDelivery/__delivery/twosided_paymentAndDelivery__delivery.css);
+@import url(../styles/blocks/twosided/_paymentAndDelivery/__delivery-text/twosided_paymentAndDelivery__delivery-text.css);
+@import url(../styles/blocks/twosided/_paymentAndDelivery/__heading/twosided_paymentAndDelivery__heading.css);
+@import url(../styles/blocks/twosided/_paymentAndDelivery/__payment-img/twosided_paymentAndDelivery__payment-img.css);
+@import url(../styles/blocks/twosided/_paymentAndDelivery/__payment/twosided_paymentAndDelivery__payment.css);

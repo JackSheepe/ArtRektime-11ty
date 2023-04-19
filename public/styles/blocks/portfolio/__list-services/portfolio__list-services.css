@@ -1,0 +1,18 @@
+.portfolio__list-services {
+  grid-column: 1;
+  font-size: 24px;
+  font-weight: 300;
+  color: grey;
+  text-align: right;
+}
+
+.portfolio__list-services:hover {
+  color: blueviolet;
+}
+
+@media (max-width: 768px) {
+  .portfolio__list-services {
+    font-size: 20px;
+    text-align: center;
+  }
+}

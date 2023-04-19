@@ -1,0 +1,18 @@
+.twosided_paymentAndDelivery__heading {
+  color: gray;
+  font-size: 26px;
+  font-weight: 400;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.twosided_paymentAndDelivery__heading::first-letter {
+  color: gray;
+}
+
+@media (max-width: 768px) {
+  .twosided_paymentAndDelivery__heading {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+}

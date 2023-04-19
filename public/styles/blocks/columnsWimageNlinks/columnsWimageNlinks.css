@@ -1,0 +1,29 @@
+.columnsWimageNlinks {
+  display: grid;
+  grid-template-columns: 1fr 0.015fr 0.9fr 0.015fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 10px;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-areas: "image line title line2 links";
+  height: 200px;
+  margin: 30px 20%;
+}
+
+@media (max-width: 768px) {
+  .columnsWimageNlinks {
+    display: block;
+  }
+}
+
+@media (max-width: 1000px) {
+  .columnsWimageNlinks {
+    grid-template-columns: 0.01fr 0.015fr 0.9fr 0.015fr 1fr;
+    gap: 0px 10px;
+    height: 120px;
+    margin: 10px 5%;
+  }
+}

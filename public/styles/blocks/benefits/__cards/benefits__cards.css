@@ -1,0 +1,13 @@
+.benefits__cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 0 1 auto;
+  width: 322px;
+  margin-top: 20px;
+}
+
+.benefits__cards:not(:last-child) {
+  margin-right: 10px;
+}

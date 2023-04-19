@@ -1,0 +1,10 @@
+.portfolio__list-jobs {
+  grid-column: 3;
+  width: 356px;
+}
+
+@media (max-width: 768px) {
+  .portfolio__list-jobs {
+    display: none;
+  }
+}

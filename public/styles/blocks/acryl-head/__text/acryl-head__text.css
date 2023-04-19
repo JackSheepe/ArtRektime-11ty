@@ -1,0 +1,19 @@
+.acryl-head__text p {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.acryl-head__text ul {
+  font-size: 20px;
+  padding: 0;
+}
+
+.acryl-head__text li {
+  list-style-image: url("/assets/img/icons/marker.svg");
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+
+.acryl-head__text li::marker {
+  color: rgb(255, 0, 102);
+}

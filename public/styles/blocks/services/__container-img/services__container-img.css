@@ -1,0 +1,10 @@
+.services__container-img {
+  width: 79px;
+  height: 79px;
+  object-fit: contain;
+}
+
+.services__container-img:hover {
+  transform: scale(1.3);
+  transition: ease-in-out 200ms;
+}

@@ -1,0 +1,13 @@
+.portfolio-works__img-container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .portfolio-works__img-container {
+    max-width: 100%;
+    height: 200px;
+  }
+}

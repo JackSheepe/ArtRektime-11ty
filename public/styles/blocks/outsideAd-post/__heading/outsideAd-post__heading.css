@@ -1,0 +1,9 @@
+.outsideAd-post__heading {
+  grid-area: b;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-weight: 400;
+  color: #000;
+  font-size: 20px;
+}

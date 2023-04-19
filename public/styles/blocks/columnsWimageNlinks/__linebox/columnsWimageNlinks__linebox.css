@@ -1,0 +1,23 @@
+.columnsWimageNlinks__linebox {
+  height: 50%;
+  grid-area: line;
+}
+
+.columnsWimageNlinks__linebox2 {
+  height: 50%;
+  grid-area: line2;
+}
+
+@media (max-width: 768px) {
+  .columnsWimageNlinks__linebox,
+  .columnsWimageNlinks__linebox2 {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .columnsWimageNlinks__linebox,
+  .columnsWimageNlinks__linebox2 {
+    display: none;
+  }
+}

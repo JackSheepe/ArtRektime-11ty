@@ -1,0 +1,6 @@
+.led__text p,
+.led__text ol,
+.led__text ul,
+.led__text h4 {
+  padding: 10px 20px 10px 0;
+}

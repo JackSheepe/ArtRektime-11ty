@@ -1,0 +1,16 @@
+.portfolio-works__description {
+  display: grid;
+  max-width: 1080px;
+  min-height: 50px;
+  grid-template-columns: 100%;
+  grid-template-rows: minmax(20px, min-content) minmax(20px, min-content);
+  padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .portfolio-works__description {
+    min-height: 0px;
+    grid-template-rows: minmax(0px, min-content) minmax(0px, min-content);
+    padding-top: 0px;
+  }
+}

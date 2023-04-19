@@ -1,0 +1,24 @@
+.acryl-benefits__card1-text {
+  grid-area: y;
+}
+.acryl-benefits__card2-text {
+  grid-area: u;
+}
+.acryl-benefits__card3-text {
+  grid-area: i;
+}
+
+.acryl-benefits__card1-img-container {
+  grid-area: b;
+}
+.acryl-benefits__card2-img-container {
+  grid-area: c;
+}
+.acryl-benefits__card3-img-container {
+  grid-area: d;
+}
+
+.acryl-benefits__card-img {
+  width: 100%;
+  object-fit: cover;
+}

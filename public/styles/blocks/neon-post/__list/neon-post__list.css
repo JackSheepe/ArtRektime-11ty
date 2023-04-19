@@ -1,0 +1,9 @@
+.neon-post__list {
+  padding-left: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.neon-post__list li {
+  margin-bottom: 10px;
+}

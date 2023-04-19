@@ -1,0 +1,55 @@
+.acrylic-benefits {
+  display: grid;
+  max-width: 928px;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 38px auto 226px 292px 292px;
+  grid-template-areas:
+    "a a a"
+    "y u i"
+    "b c d"
+    "e e f"
+    "z x v";
+  margin: 50px 0;
+}
+
+@media (max-width: 500px) {
+  .acrylic-benefits {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "a a"
+      "y y"
+      "b b"
+      "u u"
+      "c c"
+      "i i"
+      "d d"
+      "e e"
+      "f f"
+      "z z"
+      "x x"
+      "v v";
+    margin: 30px 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .acrylic-benefits {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "a a"
+      "y b"
+      "u c"
+      "i d"
+      "e e"
+      "f z"
+      "x v";
+    margin: 30px 30px;
+  }
+}

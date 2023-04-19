@@ -1,0 +1,9 @@
+@import url(../styles/blocks/portfolio-works/portfolio-works.css);
+@import url(../styles/blocks/portfolio-works/__description/portfolio-works__description.css);
+@import url(../styles/blocks/portfolio-works/__grid-description-sub/portfolio-works__grid-description-sub.css);
+@import url(../styles/blocks/portfolio-works/__grid-description-title/portfolio-works__grid-description-title.css);
+@import url(../styles/blocks/portfolio-works/__grid/portfolio-works__grid.css);
+@import url(../styles/blocks/portfolio-works/__img-container/portfolio-works__img-container.css);
+@import url(../styles/blocks/portfolio-works/__img/portfolio-works__img.css);
+@import url(../styles/blocks/portfolio-works/__wrapper/portfolio-works__wrapper.css);
+@import url(../styles/blocks/pagination/pagination.css);

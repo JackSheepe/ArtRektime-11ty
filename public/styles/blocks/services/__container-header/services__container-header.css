@@ -1,0 +1,8 @@
+.services__container-header {
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+.services__container-header:hover {
+  color: blueviolet;
+}

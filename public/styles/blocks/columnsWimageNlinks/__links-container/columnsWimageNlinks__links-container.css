@@ -1,0 +1,8 @@
+.columnsWimageNlinks__links-container {
+  grid-area: links;
+}
+
+.columnsWimageNlinks__links-container p {
+  font-weight: 300;
+  padding: 0;
+}

@@ -1,0 +1,17 @@
+@import url(../styles/blocks/benefits/benefits.css);
+@import url(../styles/blocks/benefits/__cards/benefits__cards.css);
+@import url(../styles/blocks/benefits/__cards-title/benefits__cards-title.css);
+@import url(../styles/blocks/benefits/__cards-title-container/benefits__cards-title-container.css);
+@import url(../styles/blocks/benefits/__cards-text/benefits__cards-text.css);
+@import url(../styles/blocks/benefits/__cards-icon/benefits__cards-icon.css);
+@import url(../styles/blocks/services/services.css);
+@import url(../styles/blocks/services/__container/services__container.css);
+@import url(../styles/blocks/services/__container-link/services__container-link.css);
+@import url(../styles/blocks/services/__container-img/services__container-img.css);
+@import url(../styles/blocks/services/__container-header/services__container-header.css);
+@import url(../styles/blocks/twosided/twosided.css);
+@import url(../styles/blocks/twosided/__about-header/twosided__about-header.css);
+@import url(../styles/blocks/twosided/__about/twosided__about.css);
+@import url(../styles/blocks/twosided/__sale-header/twosided__sale-header.css);
+@import url(../styles/blocks/twosided/__sale/twosided__sale.css);
+@import url(../styles/blocks/twosided/__text/twosided__text.css);

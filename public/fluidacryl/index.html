@@ -24,7 +24,9 @@
 <meta property="og:title" content="Жидкий Акрил" />
 <meta property="og:description" content="Новая технология в рекламной сфере – изготовление букв из жидкого акрила. Благодаря новым технологиям мы можем получить объекты любой даже самой сложной формы с идеальной ровной поверхностью." />
 <meta property="og:image" content="/assets/img/imgforog.png" />
-  
+ 
+<link rel="stylesheet" href="/pages/acryl.css" />
+
   </head>
   <body>
     <header>
@@ -100,12 +102,12 @@
 </header>
  
 <article class="container__flex_center line-height_m">
-  <div class="grid_image2c_text1c">
+  <div class="acryl-head">
     <img
       src="/assets/img/pic/fluidacrylcomparison.png"
       alt="Сравнение букв из жидкого акрила и листового"
     />
-    <div class="grid_image2c_text1c_text">
+    <div class="acryl-head__text">
       <p>
         Новая технология изготовления объёмных букв. Борта вывесок
         изготавливаются из алюминия на специальном станке, а лицо заливается
@@ -121,11 +123,11 @@
       </ul>
     </div>
   </div>
-  <div class="acrylic_tech_benefits__grid">
-    <p class="acrylic_tech_benefits__grid_heading">
+  <div class="acrylic-benefits">
+    <p class="acrylic-benefits__grid-heading">
       Технология производства и приемущества
     </p>
-    <div class="acrylcard1_text">
+    <div class="acryl-benefits__card1-text">
       <p>
         <b
           >1. Объемные буквы из жидкого акрила — это новейшая технология в
@@ -135,13 +137,14 @@
         листового акрила и пластикового борта) при высоте изделия до 50 см
       </p>
     </div>
-    <div class="acrylcard1_img">
+    <div class="acryl-benefits__card1-img-container">
       <img
         src="/assets/img/pic/acrylmanufacturing1.png"
         alt="Этап производства жидкого акрила"
+        class="acryl-benefits__card-img"
       />
     </div>
-    <div class="acrylcard2_text">
+    <div class="acryl-benefits__card2-text">
       <p>
         <b
           >2. Объемные буквы, изготовленные по технологии «жидкий акрил» состоят
@@ -152,13 +155,14 @@
         часов «пристывает» к борту, образуя заготовку буквы.
       </p>
     </div>
-    <div class="acrylcard2_img">
+    <div class="acryl-benefits__card2-img-container">
       <img
         src="/assets/img/pic/acrylmanufacturing2.png"
         alt="Этап производства жидкого акрила"
+        class="acryl-benefits__card-img"
       />
     </div>
-    <div class="acrylcard3_text">
+    <div class="acryl-benefits__card3-text">
       <p>
         <b
           >3. Далее мы размещаем на заднюю часть буквы светодиоды и прикручиваем
@@ -168,46 +172,53 @@
         эффектными, вывеска из таких букв будет радовать вас годами!
       </p>
     </div>
-    <div class="acrylcard3_img">
+    <div class="acryl-benefits__card3-img-container">
       <img
         src="/assets/img/pic/acrylmanufacturing3.png"
         alt="Этап производства жидкого акрила"
+        class="acryl-benefits__card-img"
       />
     </div>
     <a
       href="https://www.youtube.com/watch?v=so_q6Hj3R0A"
       target="_blank"
-      class="acrylbenefits1"
+      class="acryl-benefits_yt-1"
     >
-      <div>
+      <div class="acryl-benefits_yt__container">
         <img
           src="/assets/img/icons/acryliconeye.svg"
           alt="иконка Эстетичность"
+          class="acryl-benefits_yt__img acryl-benefits_yt__img_big"
         />
-        <p>Эстетичность</p>
+        <p class="acryl-benefits_yt__text">Эстетичность</p>
       </div>
     </a>
     <a
       href="https://www.youtube.com/watch?v=cB72wuBh5nk"
       target="_blank"
-      class="acrylbenefits2"
+      class="acryl-benefits_yt-2"
     >
-      <div>
-        <img src="/assets/img/icons/acryliconarm.svg" alt="иконка Прочность" />
-        <p>Прочность</p>
+      <div class="acryl-benefits_yt__container">
+        <img
+          src="/assets/img/icons/acryliconarm.svg"
+          class="acryl-benefits_yt__img"
+          alt="иконка Прочность"
+        />
+        <p class="acryl-benefits_yt__text">Прочность</p>
       </div>
     </a>
     <a
       href="https://www.youtube.com/watch?v=xQ6j675vjtM"
       target="_blank"
-      class="acrylbenefits3"
+      class="acryl-benefits_yt-3"
     >
-      <div>
+      <div class="acryl-benefits_yt__container">
         <img
           src="/assets/img/icons/acryliconwatch.svg"
           alt="иконка Скорость изготовления"
+          class="acryl-benefits_yt__img"
         />
-        <p>
+        <p class="acryl-benefits_yt__text">
           Скорость<br />
           изготовления
         </p>
@@ -216,14 +227,15 @@
     <a
       href="https://www.youtube.com/watch?v=1Jyd5UXngVA"
       target="_blank"
-      class="acrylbenefits4"
+      class="acryl-benefits_yt-4"
     >
-      <div>
+      <div class="acryl-benefits_yt__container">
         <img
           src="/assets/img/icons/acryliconlamp.svg"
           alt="иконка Возможность подсветки"
+          class="acryl-benefits_yt__img"
         />
-        <p>
+        <p class="acryl-benefits_yt__text">
           Возможность<br />
           подсветки
         </p>
@@ -232,14 +244,15 @@
     <a
       href="https://www.youtube.com/watch?v=kLea_VuoKso"
       target="_blank"
-      class="acrylbenefits5"
+      class="acryl-benefits_yt-5"
     >
-      <div>
+      <div class="acryl-benefits_yt__container">
         <img
           src="/assets/img/icons/acryliconcalendar.svg"
           alt="иконка Срок службы"
+          class="acryl-benefits_yt__img"
         />
-        <p>Срок службы</p>
+        <p class="acryl-benefits_yt__text">Срок службы</p>
       </div>
     </a>
   </div>

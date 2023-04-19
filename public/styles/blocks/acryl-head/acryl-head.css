@@ -1,0 +1,21 @@
+.acryl-head {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 928px;
+  grid-template-areas: "a a b";
+  margin: 40px 0;
+}
+
+.acryl-head img {
+  grid-area: a;
+  object-fit: contain;
+  max-width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .acryl-head {
+    display: block;
+    margin: 30px 30px;
+  }
+}

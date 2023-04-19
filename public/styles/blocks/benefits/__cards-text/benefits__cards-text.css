@@ -1,0 +1,6 @@
+.benefits__cards-text {
+  padding-left: 40px; /* ширина иконки + её отступ */
+  box-sizing: border-box;
+  font-weight: 300;
+  font-size: 14px;
+}

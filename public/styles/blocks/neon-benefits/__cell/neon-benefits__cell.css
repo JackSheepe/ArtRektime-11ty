@@ -1,0 +1,17 @@
+.neon-benefits__cell {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 3fr 1fr;
+  max-width: 440px;
+}
+
+.neon-benefits__cell h2 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1000px) {
+  .neon-benefits__cell h2 {
+    padding: 0;
+  }
+}

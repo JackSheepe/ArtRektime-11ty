@@ -1,0 +1,20 @@
+.columnsWimageNlinks__image {
+  grid-area: image;
+}
+
+.columnsWimageNlinks__image img {
+  object-fit: contain;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .columnsWimageNlinks__image {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .columnsWimageNlinks__image {
+    display: none;
+  }
+}

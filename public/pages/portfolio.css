@@ -1,0 +1,7 @@
+@import url(../styles/blocks/portfolio/portfolio.css);
+@import url(../styles/blocks/portfolio/__list-jobs/portfolio__list-jobs.css);
+@import url(../styles/blocks/portfolio/__list-middle-line/portfolio__list-middle-line.css);
+@import url(../styles/blocks/portfolio/__list-middle/portfolio__list-middle.css);
+@import url(../styles/blocks/portfolio/__list-services/portfolio__list-services.css);
+@import url(../styles/blocks/portfolio/__list/portfolio__list.css);
+@import url(../styles/blocks/portfolio/__services/portfolio__services.css);

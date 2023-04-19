@@ -1,0 +1,9 @@
+.wideformat__list {
+  padding: 0 20px 20px 0;
+}
+
+@media (max-width: 768px) {
+  .wideformat__list {
+    padding: 10px 5%;
+  }
+}

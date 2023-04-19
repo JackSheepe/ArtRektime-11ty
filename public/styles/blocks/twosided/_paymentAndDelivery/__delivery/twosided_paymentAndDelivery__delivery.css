@@ -1,0 +1,15 @@
+.twosided_paymentAndDelivery__delivery {
+  text-align: left;
+  padding: 20px;
+  padding-left: 24%;
+  color: gray;
+  width: 100%;
+  line-height: 30px;
+}
+
+@media (max-width: 768px) {
+  .twosided_paymentAndDelivery__delivery {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}

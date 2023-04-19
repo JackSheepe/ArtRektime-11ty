@@ -1,0 +1,14 @@
+.portfolio-works {
+  max-width: 1080px;
+  align-self: center;
+}
+
+.portfolio_works_container_for_containers {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .portfolio-works {
+    margin-bottom: 15px;
+  }
+}

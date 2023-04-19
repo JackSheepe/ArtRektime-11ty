@@ -1,0 +1,10 @@
+.twosided {
+  display: flex;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .twosided {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,29 @@
+.acryl-benefits_yt-1 {
+  grid-area: e;
+  background-image: url(/assets/img/pic/acrylbenefits1.png);
+}
+.acryl-benefits_yt-2 {
+  grid-area: f;
+  background-image: url(/assets/img/pic/acrylbenefits2.png);
+}
+.acryl-benefits_yt-3 {
+  grid-area: z;
+  background-image: url(/assets/img/pic/acrylbenefits3.png);
+}
+.acryl-benefits_yt-4 {
+  grid-area: x;
+  background-image: url(/assets/img/pic/acrylbenefits4.png);
+}
+.acryl-benefits_yt-5 {
+  grid-area: v;
+  background-image: url(/assets/img/pic/acrylbenefits5.png);
+}
+
+.acryl-benefits_yt-1,
+.acryl-benefits_yt-2,
+.acryl-benefits_yt-3,
+.acryl-benefits_yt-4,
+.acryl-benefits_yt-5 {
+  text-decoration: none;
+  position: relative;
+}

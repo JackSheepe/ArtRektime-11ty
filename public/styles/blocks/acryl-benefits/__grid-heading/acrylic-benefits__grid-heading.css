@@ -1,0 +1,6 @@
+.acrylic-benefits__grid-heading {
+  grid-area: a;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+}

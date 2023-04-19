@@ -1,0 +1,11 @@
+.portfolio__list-middle {
+  grid-column: 2;
+  display: flex;
+  justify-items: center;
+}
+
+@media (max-width: 768px) {
+  .portfolio__list-middle {
+    display: none;
+  }
+}
