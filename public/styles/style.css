@@ -201,7 +201,7 @@ header {
   justify-content: center;
   margin: 0;
   box-shadow: 0px 8px 8px -7px rgba(34, 60, 80, 0.2);
-  padding: 1% 2%;
+  padding: 1.5% 2%;
 }
 
 .header__info-contacts {
@@ -235,8 +235,14 @@ header {
   background-color: rgb(145, 145, 145);
 }
 
+.header__info-logo-container {
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
 .header__info-logo {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
   object-fit: contain;
 }
@@ -244,16 +250,27 @@ header {
 .footer {
   display: flex;
   justify-content: center;
-  gap: 50px;
-  padding: 50px;
+  gap: 70px;
+  padding: 25px 0 50px;
   font-size: small;
   color: white;
   background-color: rgb(47, 46, 46);
+  font-weight: 100;
+  font-size: 14px;
 }
 
 .footer__container {
   max-width: 160px;
-  line-height: 25px;
+  line-height: 22px;
+}
+
+.footer__container_contacts {
+  line-height: 18px;
+}
+
+.footer__container a {
+  display: block;
+  text-decoration: none;
 }
 
 .slideshow {

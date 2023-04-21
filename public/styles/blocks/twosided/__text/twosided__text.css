@@ -1,4 +1,5 @@
 .twosided__text {
+  max-width: 420px;
   font-size: 14px;
   font-weight: 300;
 }

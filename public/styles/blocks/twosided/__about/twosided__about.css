@@ -1,4 +1,5 @@
 .twosided__about {
+  width: 50%;
   text-align: left;
   background-color: rgb(242, 242, 242);
   padding: 20px;
@@ -21,5 +22,11 @@
     text-align: left;
     font-size: 14px;
     padding: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .twosided__about {
+    width: 100%;
   }
 }
