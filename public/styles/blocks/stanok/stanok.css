@@ -24,13 +24,13 @@
 }
 
 @media (max-width: 1820px) {
-  .stanok_flex {
+  .stanok {
     flex-direction: column;
   }
 }
 
 @media (max-width: 768px) {
-	.stanok_flex {
+  .stanok {
     padding: 10px 5%;
   }
 }

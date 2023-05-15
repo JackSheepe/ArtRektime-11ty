@@ -555,6 +555,7 @@ table.darkTable tfoot td {
     width: 100%;
   }
   .text-article p,
+  .text-article h2,
   .text-article h3,
   .text-article h4,
   .text-article ul,
