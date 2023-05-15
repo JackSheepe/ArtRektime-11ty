@@ -23,14 +23,10 @@
   object-fit: contain;
 }
 
-@media (max-width: 1820px) {
-  .stanok {
-    flex-direction: column;
-  }
-}
-
 @media (max-width: 768px) {
   .stanok {
+    display: flex;
+    flex-direction: column;
     padding: 10px 5%;
   }
 }

@@ -9,7 +9,7 @@
 }
 
 @media (max-width: 1000px) {
-  .neon_post_wide {
+  .neon-post_wide {
     display: flex;
     flex-direction: column;
     margin: 20px;
